@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Home.aspx" title="Home"  description="">
+        <siteMapNode url="" title="About"  description="" >
+            <siteMapNode url="~/AboutUS/about-background.aspx" title="BackGround"  description="" />
+            <siteMapNode url="~/AboutUS/about-mission.aspx" title="Mission"  description="" />
+            <siteMapNode url="~/AboutUS/about-model.aspx" title="Model"  description="" />
+            <siteMapNode url="~/AboutUS/about-smart-content.aspx" title="SmartContent"  description="" />
+            <siteMapNode url="~/AboutUS/about-board.aspx" title="BoardOfDirectors"  description="" />          
+        </siteMapNode>      
+        <siteMapNode url="" title="Programs"  description="" >
+            <siteMapNode url="~/Programs/adopt-a-school.aspx" title="Adopt A School"  description="" />
+            <siteMapNode url="~/Programs/adopt-a-student.aspx" title="Adopt A Student"  description="" />
+
+          <siteMapNode url="~/Programs/NewStudent.aspx" title="New Student"  description="" />
+          <siteMapNode url="~/Programs/StudentList.aspx" title="Student List"  description="" />
+          
+        </siteMapNode>
+      
+        <siteMapNode url="" title="GetInvolved"  description="" >
+            <siteMapNode url="~/Getinvolved/HowtoDonate.aspx" title="How To Donate"  description="" />
+          <siteMapNode url="" title="Sponsors"  description="" >
+            <siteMapNode url="~/Sponsers/Individual.aspx" title="Individual"  description="" >
+              <siteMapNode url="~/Programs/donationlist.aspx" title="Existing Donors"  description="" />
+            </siteMapNode>
+            
+            <siteMapNode url="~/Sponsers/Corparate.aspx" title="Corparate"  description="" />
+            <siteMapNode url="~/Sponsers/Government.aspx" title="Government"  description="" />
+          </siteMapNode>
+          <siteMapNode url="~/Campaigns/CampaignLanding.aspx"  title="Campaigns"  description="" />
+          <siteMapNode url="~/Campaigns/OngoingCampaigns.aspx"  title="Campaigns"  description="" />
+          <siteMapNode url="~/Campaigns/CampaignDonate.aspx"  title="Campaigns"  description="" />
+          
+          
+        </siteMapNode>
+        <siteMapNode url="" title="Benifits"  description="" >
+            <siteMapNode url="~/Benfits/Sponsers.aspx" title="Sponsors"  description="" />
+            <siteMapNode url="~/Benfits/Students.aspx" title="Students"  description="" />
+            <siteMapNode url="~/Benfits/Schools.aspx" title="School"  description="" />
+            <siteMapNode url="~/Benfits/Community.aspx" title="Community"  description="" />
+        </siteMapNode>
+
+      <siteMapNode url="~/Campaigns/FundraisingCampaigns.aspx" title="FundraisingCampaigns" description="" >
+       
+        
+      </siteMapNode>
+      
+        <siteMapNode url="" title="Locations"  description="" >
+            <siteMapNode url="~/Locations/India.aspx" title="India"  description="" />
+            <siteMapNode url="~/Locations/Usa.aspx" title="USA"  description="" />            
+        </siteMapNode>
+
+    
+        <siteMapNode url="~/Programs/media.aspx" title="Events"  description="" />
+      <siteMapNode url="~/Programs/photo-gallery.aspx" title="Photo Gallery"  description="" />
+      <siteMapNode url="~/Programs/video-gallery.aspx" title="Testimonials(Video)"  description="" />
+             
+
+      <siteMapNode url="" title="Demo"  description="" >
+            <siteMapNode url="~/Demo/demo_telugu.aspx" title="Telugu"  description="" />
+            <siteMapNode url="~/Demo/demo_tamil.aspx" title="Tamil"  description="" />
+        </siteMapNode>
+
+
+      <siteMapNode url="~/Programs/AdoptedSchools.aspx" title="Adopted Schools"  description="" />
+
+      <siteMapNode url="~/Donate/Donate.aspx" title="Donate"  description="" />
+      
+    </siteMapNode>
+</siteMap>

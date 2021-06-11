@@ -1,0 +1,63 @@
+E:\Development\2019\GrameenaVidya 4.0\GrameenaVidya\bin\GrameenaVidya.dll
+E:\Development\2019\GrameenaVidya 4.0\GrameenaVidya\bin\GrameenaVidya.pdb
+E:\Development\2019\GrameenaVidya 4.0\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+E:\Development\2019\GrameenaVidya 4.0\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+E:\Development\2019\GrameenaVidya 4.0\GrameenaVidya\obj\Debug\GrameenaVidya.csprojResolveAssemblyReference.cache
+D:\CET\Development\2019\GV\GrameenaVidya\bin\GrameenaVidya.dll
+D:\CET\Development\2019\GV\GrameenaVidya\bin\GrameenaVidya.pdb
+D:\CET\Development\2019\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csprojResolveAssemblyReference.cache
+D:\CET\Development\2019\GV\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+D:\CET\Development\2019\GV\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+D:\CET\Development\2018\GV\GrameenaVidya\bin\GrameenaVidya.dll
+D:\CET\Development\2018\GV\GrameenaVidya\bin\GrameenaVidya.pdb
+D:\CET\Development\2018\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csprojResolveAssemblyReference.cache
+D:\CET\Development\2018\GV\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+D:\CET\Development\2018\GV\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+E:\GV Fresh\GV\GV\GrameenaVidya\bin\GrameenaVidya.dll.config
+E:\GV Fresh\GV\GV\GrameenaVidya\bin\GrameenaVidya.dll
+E:\GV Fresh\GV\GV\GrameenaVidya\bin\GrameenaVidya.pdb
+E:\GV Fresh\GV\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csprojAssemblyReference.cache
+E:\GV Fresh\GV\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CoreCompileInputs.cache
+E:\GV Fresh\GV\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CopyComplete
+E:\GV Fresh\GV\GV\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+E:\GV Fresh\GV\GV\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\bin\GrameenaVidya.dll.config
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\bin\GrameenaVidya.dll
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\bin\GrameenaVidya.pdb
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csprojAssemblyReference.cache
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CoreCompileInputs.cache
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CopyComplete
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+E:\GV Fresh\GV-bckp\GV\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+D:\dev\Latest\GV\GrameenaVidya\bin\GrameenaVidya.dll.config
+D:\dev\Latest\GV\GrameenaVidya\bin\GrameenaVidya.dll
+D:\dev\Latest\GV\GrameenaVidya\bin\GrameenaVidya.pdb
+D:\dev\Latest\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CoreCompileInputs.cache
+D:\dev\Latest\GV\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CopyComplete
+D:\dev\Latest\GV\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+D:\dev\Latest\GV\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+E:\Dovelopment\Development\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya\bin\GrameenaVidya.dll
+E:\Dovelopment\Development\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya\bin\GrameenaVidya.pdb
+E:\Dovelopment\Development\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya\obj\Debug\GrameenaVidya.csprojResolveAssemblyReference.cache
+E:\Dovelopment\Development\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+E:\Dovelopment\Development\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+E:\Dovelopment\Development\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya\bin\AjaxControlToolkit.dll
+E:\Dovelopment\Development\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya 4.0\GrameenaVidya\bin\DataAccess.dll
+G:\gv\gvnew\GrameenaVidya\bin\GrameenaVidya.dll.config
+G:\gv\gvnew\GrameenaVidya\bin\GrameenaVidya.dll
+G:\gv\gvnew\GrameenaVidya\bin\GrameenaVidya.pdb
+G:\gv\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.csprojAssemblyReference.cache
+G:\gv\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CoreCompileInputs.cache
+G:\gv\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.csproj.CopyComplete
+G:\gv\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+G:\gv\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+D:\dev\git2\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.csprojResolveAssemblyReference.cache
+D:\dev\git2\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+D:\dev\git2\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.pdb
+D:\dev\git2\gvnew\GrameenaVidya\bin\GrameenaVidya.dll
+D:\dev\git2\gvnew\GrameenaVidya\bin\GrameenaVidya.pdb
+D:\dev\GitLatest\gvnew\GrameenaVidya\bin\GrameenaVidya.dll
+D:\dev\GitLatest\gvnew\GrameenaVidya\bin\GrameenaVidya.pdb
+D:\dev\GitLatest\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.csprojResolveAssemblyReference.cache
+D:\dev\GitLatest\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.dll
+D:\dev\GitLatest\gvnew\GrameenaVidya\obj\Debug\GrameenaVidya.pdb

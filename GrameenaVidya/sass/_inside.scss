@@ -1,0 +1,90 @@
+
+	.login-success{
+	padding:100px 20px;
+			
+		h2{color:$c2;}	
+
+		.success-table{
+		background:#fff;
+			tr{
+			td
+			{
+			padding:12px;
+			border:1px solid #ddd;
+			&:nth-child(1){background:#eee; width:40%;}
+				}}
+		
+		}
+		
+		.btn-yellow{
+			border:0;
+			background:$c1;
+			color:$c3;
+			margin-right:10px;
+			
+				&:hover{
+				background:$c2;
+				color:$c4;
+				}
+			}
+
+			.btn-green{
+			border:0;
+			background:$c2;
+			color:$c4;
+			margin-right:10px;
+			border-radius:2px;
+			padding:8px;
+			
+				&:hover{
+				background:$c1;
+				color:$c3;
+				}
+			}
+	
+	}
+	
+	
+	
+.service-blk{
+	.adoptschool{
+		a{color:$c1;}
+		img{margin-right:12px;
+			margin-top:-3px;
+		}
+		
+		.img2{
+		margin-top:-10px;
+		}
+	}
+}
+
+
+.news{
+	.blk{
+		h2{height:60px;
+		border-bottom:1px solid #ddd;
+		}
+		.pic{
+			img{
+				height:120px;
+				width:100%;
+			}
+		}
+	}
+}
+	
+
+	.blk2{
+		.pic{
+		img{
+		height:150px;
+		width:100%;
+		}
+		}
+	}
+	
+	
+	
+	
+	

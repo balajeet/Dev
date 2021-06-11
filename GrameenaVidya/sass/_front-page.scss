@@ -1,0 +1,1604 @@
+$c1:#7bae4e;
+$c2:#ffd133;
+$c3:#ffffff;
+$c4:#000000;
+body {
+    p {
+        text-align: justify;
+    }
+}
+
+.header .navbar-default {
+    background-color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+
+.header .navbar-brand {
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    padding-top: 0;
+}
+
+.navbar-brand b {
+    color: #fff;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 0;
+    font-size: 1.2em;
+    margin-left: .3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+.header .navbar-brand img {
+    margin-top: -10px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 2px;
+}
+
+.navbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+
+/*================== top header	 ========================== */
+
+.top-header {
+    background: #7bae4e;
+    color: #fff;
+    padding: 8px 0;
+    i {
+        margin: 0;
+        background: $c1;
+        width: 22px;
+        height: 22px;
+        border-radius: 999px;
+        color: lighten($c2, 15%);
+        text-align: center;
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .inr {
+        margin: 0;
+        background: $c2;
+        width: 22px;
+        height: 22px;
+        border-radius: 999px;
+        color: #000;
+        text-align: center;
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .lock {
+        margin: 0;
+        background: lighten($c1, 15%);
+        width: 22px;
+        height: 22px;
+        border-radius: 999px;
+        color: #fff;
+        text-align: center;
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .fa {
+        margin: 0;
+    }
+    .top-header-right {
+        display: inline-block;
+        float: right;
+        .donate2 {
+            background: $c2;
+            display: inline-block;
+            border-radius: 3px;
+            padding: 0px 10px 0 4px;
+            margin-left: 15px;
+            color: #000;
+            font-weight: bold;
+            font-size: 15px;
+            a {
+                color: #000;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+        .login2 {
+            background: lighten($c1, 15%);
+            display: inline-block;
+            border-radius: 3px;
+            padding: 0px 15px 0 8px;
+            margin-left: 8px;
+            color: #fff;
+            font-weight: 700;
+            font-size: 15px;
+        }
+        a {
+            color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+/*================== Inner Right strip ========================== */
+
+.go-to-packages {
+    padding: 20px 40px;
+    color: #fff;
+    h2 {
+        margin: 0;
+    }
+}
+
+.aas {
+    background: $c1;
+    padding: 15px;
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+}
+
+.aav {
+    background: $c2;
+    padding: 15px;
+    border-radius: 2px;
+    color: #000;
+    text-align: center;
+    margin: 0;
+}
+
+.sidebar-blk img {
+    width: 100%;
+}
+
+.activelink {
+    background: $c2;
+    margin-right: 2px;
+}
+
+.ch-tab {
+    margin-top: 15px;
+}
+
+.ch-tab .nav-tabs > li.active > a {
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+}
+
+.nav-tabs > li > a {
+    font-family: "Dosis", sans- serif;
+    font-weight: bold;
+}
+
+.ch-tab .tab-content {
+    padding-top: 20px;
+}
+
+// Home page 
+.blk {
+    h2 {
+        .pe-icon {
+            margin-bottom: 0;
+            color: darken($c2, 15%);
+            margin-right: 12px;
+        }
+    }
+}
+
+.artifacts-bg {
+    background: $c1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1 {
+        color: $c2;
+        font-weight: bold;
+        text-align: center;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.carousel-caption h1 {
+    font-size: 30px;
+}
+
+.adopt-table {
+    width: 100%;
+    padding: 10px;
+    td,
+    th {
+        padding: 8px;
+    }
+    .heading {
+        background: $c2;
+        text-align: center;
+        font-weight: bold;
+        height: 40px;
+    }
+    tr {
+        background: lighten($c1, 45%);
+        vertical-align: top;
+    }
+}
+
+.indi-list {
+    ol {
+        li {
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+}
+
+.view-school {
+    a {
+        font-size: 14px;
+        font-weight: bold;
+        background: $c2;
+        padding: 3px 15px;
+        border-radius: 5px;
+    }
+    margin-top:20px;
+    td,
+    th {
+        padding: 8px;
+    }
+    background:#ddd;
+    width:100%;
+    thead {
+        background: #888;
+        color: #fff;
+        font-weight: bold;
+        td {
+            &:nth-child(1) {
+                width: 45%;
+            }
+            &:nth-child(2) {
+                width: 45%;
+            }
+            &:nth-child(3) {
+                width: 10%;
+            }
+        }
+    }
+    tbody {
+        background: #fff;
+    }
+}
+
+// ================ View school Popup====================
+.view-school-popup {
+    padding-top: 20px;
+    .school-info {
+        background: $c1;
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+        display: block;
+        padding: 10px;
+        .school-name {
+            color: $c1;
+            border-bottom: 1px dotted #ddd;
+            padding-top: 20px;
+            p {
+                color: $c3;
+                margin-bottom: 15px;
+            }
+        }
+        .school-address {
+            padding-top: 20px;
+            h3 {
+                color: $c2;
+            }
+            p {
+                color: $c3;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .donate {
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .school-problem {
+        .demography-table {
+            width: 100%;
+            background: #fff;
+            border: 1px solid #ddd;
+            tr {
+                td {
+                    border: 1px solid #ddd;
+                    padding: 10px;
+                    &:nth-child(2) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .appeal2 {
+            h3 {
+                text-align: center;
+            }
+            i {
+                padding-left: 50px;
+            }
+            .letter-body {
+                margin-top: 20px;
+            }
+        }
+    }
+    .banner {
+        background: lighten($c1, 30%);
+        .item {
+            text-align: center;
+            img {
+                margin: 30px 10px;
+                border: 5px solid #fff;
+                width: 150px;
+                height: 150px;
+                border-radius: 999px;
+                display: inline-block;
+                box-shadow: 2px 5px 2px #777;
+            }
+        }
+    }
+}
+
+// ================ Campaign====================
+.campaign {
+    padding-top: 25px;
+    .donate {
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .campaign-list {
+        margin: 0 auto;
+        width: 100%;
+        overflow: hidden;
+        display: block;
+        padding: 10px;
+        .spacer {
+            margin-top: 10px;
+            label {
+                margin-left: 6px;
+            }
+        }
+        .spacer2 {
+            margin-top: 10px;
+            label {
+                margin-left: 0px;
+            }
+        }
+        .agree-check {
+            margin-top: 50px;
+        }
+        .donate-button {
+            background: $c2;
+            padding: 10px 50px;
+            margin-top: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .display-in {
+            display: inline-block;
+            background: #fff;
+            height: 40px;
+            margin-left: 15px;
+            border: 1px solid #ddd;
+            text-indent: 10px;
+            margin-top: -5px;
+        }
+        .campaign-intro {
+            padding-bottom: 5px;
+            h4 {
+                font-family: "Dosis", sans-serif;
+            }
+            ul {
+                li {
+                    display: inline;
+                    padding-right: 30px;
+                }
+            }
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border: 1px solid #bbb;
+            td,
+            th {
+                padding: 8px;
+            }
+            thead {
+                background: $c2;
+                font-weight: bold;
+                tr {
+                    td {
+                        border: 1px solid #ddd;
+                        text-align: center;
+                    }
+                }
+            }
+            tbody {
+                background: $c3;
+                tr {
+                    td {
+                        border: 1px solid #dfdfdf;
+                        text-align: center;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .note {
+            color: red;
+            font-style: italic;
+        }
+        .btn-yellow {
+            border: 0;
+            background: $c1;
+            color: $c3;
+            margin-right: 10px;
+            &:hover {
+                background: $c2;
+                color: $c4;
+            }
+        }
+        .btn-close {
+            background: $c2;
+            color: $c4;
+            margin-right: 10px;
+            &:hover {
+                background: $c1;
+                color: $c3;
+            }
+        }
+        .textarea {
+            height: 130px;
+        }
+        .campaign-status {
+            background: lighten($c1, 50%);
+            padding: 20px;
+            border: 1px solid lighten($c1, 35%);
+            width: 100%;
+            margin: 0 auto;
+            h5 {
+                background: $c1;
+                padding: .7em;
+                color: $c3;
+                text-align: left;
+            }
+            .start-date {
+                color: #000;
+                display: inline;
+                background: #eee;
+                padding: 10px 10px;
+                border-radius: 5px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .end-date {
+                margin-left: 15px;
+            }
+            .make-donation {
+                padding: 14px 25px;
+                margin-top: 0;
+                margin-left: -10px;
+                background: #2061a6;
+                &:hover {
+                    color: $c2;
+                }
+            }
+            h4 {
+                .pending-amount {
+                    float: right;
+                    background: $c2;
+                    color: $c4;
+                    padding: 7px 15px;
+                    font-size: 15px;
+                    margin-top: -7px;
+                }
+            }
+            .campaign-date {
+                background: #ddd;
+                border: 0;
+                color: $c4;
+                font-size: 13px;
+                padding: 3px 15px;
+                margin-right: 5px;
+                border-radius: 3px;
+            }
+            input[type=range] {
+                -webkit-appearance: none;
+                width: 100%;
+                margin: 6.2px 0;
+            }
+            input[type=range]:focus {
+                outline: none;
+            }
+            input[type=range]::-webkit-slider-runnable-track {
+                width: 100%;
+                height: 12.6px;
+                cursor: pointer;
+                box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+                background: #3071a9;
+                border-radius: 1.3px;
+                border: 0.2px solid #010101;
+            }
+            input[type=range]::-webkit-slider-thumb {
+                box-shadow: 1px 1px 1px #840000, 0px 0px 1px #9e0000;
+                border: 1px solid #000000;
+                height: 25px;
+                width: 16px;
+                border-radius: 3px;
+                background: #4affff;
+                cursor: pointer;
+                -webkit-appearance: none;
+                margin-top: -6.4px;
+            }
+            input[type=range]:focus::-webkit-slider-runnable-track {
+                background: #8ab7de;
+            }
+            input[type=range]::-moz-range-track {
+                width: 100%;
+                height: 12.6px;
+                cursor: pointer;
+                box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+                background: #3071a9;
+                border-radius: 1.3px;
+                border: 0.2px solid #010101;
+            }
+            input[type=range]::-moz-range-thumb {
+                box-shadow: 1px 1px 1px #840000, 0px 0px 1px #9e0000;
+                border: 1px solid #000000;
+                height: 25px;
+                width: 16px;
+                border-radius: 3px;
+                background: #4affff;
+                cursor: pointer;
+            }
+            input[type=range]::-ms-track {
+                width: 100%;
+                height: 12.6px;
+                cursor: pointer;
+                background: transparent;
+                border-color: transparent;
+                color: transparent;
+            }
+            input[type=range]::-ms-fill-lower {
+                background: #10273a;
+                border: 0.2px solid #010101;
+                border-radius: 2.6px;
+                box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+            }
+            input[type=range]::-ms-fill-upper {
+                background: #3071a9;
+                border: 0.2px solid #010101;
+                border-radius: 2.6px;
+                box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+            }
+            input[type=range]::-ms-thumb {
+                box-shadow: 1px 1px 1px #840000, 0px 0px 1px #9e0000;
+                border: 1px solid #000000;
+                height: 25px;
+                width: 16px;
+                border-radius: 3px;
+                background: #4affff;
+                cursor: pointer;
+                height: 12.6px;
+            }
+            input[type=range]:focus::-ms-fill-lower {
+                background: #3071a9;
+            }
+            input[type=range]:focus::-ms-fill-upper {
+                background: #8ab7de;
+            }
+        }
+        .campaign-donors {
+            background: #eee;
+            padding-bottom: 10px;
+            border: 1px solid #ddd;
+            h2 {
+                background: #999;
+                margin-top: 15px;
+                padding: 10px 15px;
+                color: $c3;
+            }
+            .donor-names {
+                border-bottom: 1px dotted #ddd;
+                padding: 5px;
+                &:last-child {
+                    border: 0;
+                }
+            }
+        }
+    }
+}
+
+.campaign-fund {
+    padding-top: 50px;
+}
+
+//============= Artifacts ==============
+.artifacts-new {
+    .artifact-icons {
+        width: 135px;
+        height: 110px;
+        display: block;
+        margin: 15px;
+        text-align: center;
+        vertical-align: bottom;
+        float: left;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        color: #fff;
+        border-left: 5px solid #bbb;
+        i {
+            font-size: 40px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            margin-top: .5em;
+            margin-bottom: .2em;
+            color: #fff;
+        }
+        &:nth-child(1) {
+            background: #f17b73;
+            &:hover {
+                background: red;
+            }
+        }
+        &:nth-child(2) {
+            background: lighten(#86c43f, 10%);
+        }
+        &:nth-child(3) {
+            background: #77bcaf;
+        }
+        &:nth-child(4) {
+            background: #445e9f;
+        }
+        &:nth-child(5) {
+            background: #445e9f;
+        }
+        &:nth-child(6) {
+            background: #55b1e1;
+        }
+        &:nth-child(7) {
+            background: #31647f;
+        }
+        &:nth-child(8) {
+            background: #edc34f;
+        }
+        &:nth-child(9) {
+            background: #a5123d;
+        }
+        &:nth-child(10) {
+            background: #f36899;
+        }
+        &:nth-child(11) {
+            background: #4b5567;
+        }
+        &:nth-child(12) {
+            background: #f17b73;
+        }
+    }
+}
+
+// Popup
+.view-school-button {
+    background: $c2;
+    float: right;
+    font-size: 14px;
+    padding: 10px 30px;
+    color: #000;
+    margin-left: 10px;
+}
+
+.modal-new {
+    width: 100%;
+}
+
+.modal-dialog-edited {
+    width: 92%;
+    .main-container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.edited-table2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    th {
+        background: $c2;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+    td {
+        background: lighten($c4, 97%);
+        padding: 5px 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+}
+
+// ============ Popover
+.popover .title2 {
+    width: 600px;
+    overflow-y: visible;
+    .row {
+        padding-left: 30px;
+        line-height: 25px;
+    }
+    input[type="checkbox"] {
+        margin-right: 20px;
+    }
+}
+
+.popover {
+    width: 600px;
+    display: block;
+    background: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.popover-title {
+    color: #000;
+    font-size: 15px;
+    width: 700px;
+    background: darken($c2, 10%);
+    color: $c3;
+    border: 1px solid #bbb;
+}
+
+.popover-content {
+    color: $c4;
+    font-size: 10px;
+    width: 700px;
+    background: #fff;
+    border: 1px solid #bbb;
+    table {
+        width: 90%;
+        margin: 0 auto;
+        border: 0;
+        td,
+        th {
+            h4 {
+                background: lighten($c1, 10%);
+                padding: 5px 10px;
+                color: #fff;
+                border-radius: 3px;
+            }
+            vertical-align:top;
+            border:0;
+            background:none;
+            text-align:left;
+            input[type=checkbox] {
+                margin-right: 20px;
+            }
+            label {
+                font-size: 15px;
+            }
+        }
+    }
+    .button-list {
+        margin-left: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    button {
+        margin-left: 20px;
+    }
+    box-shadow:5px 5px 5px #ccc;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+}
+
+// ======== inner pages 
+.page-heading {
+    margin-top: -60px;
+}
+
+.ptn-bg {
+    padding-top: 10px;
+    h2 {
+        margin-bottom: 0;
+    }
+    .breadcrumb {
+        margin-bottom: 0;
+    }
+}
+
+.causes {
+    padding-top: 40px;
+    .adopt-list {
+        li {
+            margin-bottom: 15px;
+            list-style-type: disc;
+            margin-left: 40px;
+            padding-left: 10px;
+        }
+    }
+    .adopt-hardware-table {
+        tr {
+            td {
+                border: 1px solid #ddd;
+            }
+        }
+        thead {
+            background: $c2;
+            tr {
+                td {
+                    padding: 10px;
+                    font-weight: bold;
+                }
+            }
+        }
+        tbody {
+            tr {
+                &:nth-child(odd) {
+                    background: #f7f7f7;
+                }
+                &:nth-child(even) {
+                    background: #eee;
+                }
+                td {
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .adopt-hardware-table2 {
+        tr {
+            td {
+                &:nth-child(1) {
+                    width: 10%;
+                }
+                &:nth-child(2) {
+                    width: 50%;
+                }
+                &:nth-child(3) {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+.modal-new {
+    width: 100%;
+    .modal-dialog-edited2 {
+        width: 94%;
+        .modal-header {
+            padding: 0;
+            .modal-title {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                color: $c3;
+                font-size: 20px;
+                font-family: "Dosis", sans-serif;
+                background: $c1;
+                padding: 10px;
+                padding-left: 20px;
+            }
+            .close {
+                color: $c4;
+                background: $c3;
+                width: 30px;
+                height: 30px;
+                border-radius: 999px;
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+        }
+        .modal-content-edit {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .edited-table2 {
+            text-align: center;
+        }
+    }
+}
+
+.well {
+    margin-left: 10px;
+}
+
+.affix {
+    width: 38%;
+}
+
+.Pager {
+    text-align: center;
+    b {
+        margin-right: 10px;
+    }
+    a {
+        background: $c2;
+        color: $c4;
+        border: 0;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+    }
+    span {
+        background: $c1;
+        color: $c3;
+        border: 0;
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+    }
+}
+
+// ============ all in one =============
+.btn-right {
+    background: $c1;
+    right: 0;
+    display: inline-block;
+    float: right;
+    color: #fff;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+}
+
+.footer {
+    padding-bottom: 0;
+}
+
+.socialmedia {
+    width: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: $c2;
+    top: 250px;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    i {
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+}
+
+// ======== Front 2 =========
+.navbar-right {
+    li {
+        ul {
+            li {
+                border-bottom: 1px dotted darken($c2, 30%);
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+.carousel-caption {
+    bottom: 20px;
+    text-align: center;
+    left: 0%;
+    h1 {
+        background: url(../images/bg-tag.png);
+        padding: 10px;
+        border-bottom-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+}
+
+.testimonials-ct {
+    .item {
+        img {
+            border-radius: 999px;
+            height: 160px;
+            width: 160px;
+            border: 5px solid #f2f2f2;
+            box-shadow: 2px 2px 2px #aaa;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.menu-donate {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffa3+0,f17432+50,ea5507+54,fb955e+100 */
+    background: #ffffa3;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffa3 0%, #f17432 50%, #ea5507 54%, #fb955e 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffa3), color-stop(50%, #f17432), color-stop(54%, #ea5507), color-stop(100%, #fb955e));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffa3 0%, #f17432 50%, #ea5507 54%, #fb955e 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffa3 0%, #f17432 50%, #ea5507 54%, #fb955e 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffa3 0%, #f17432 50%, #ea5507 54%, #fb955e 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #ffffa3 0%, #f17432 50%, #ea5507 54%, #fb955e 100%);
+    /* IE6-9 */
+    border-radius: 5px;
+    margin-left: 5px;
+    a {
+        color: #fff!important;
+    }
+}
+
+//=========== Sub dropdown menu ================
+.dropdown-menu>li {
+    position: relative;
+    -webkit-user-select: none;
+    /* Chrome/Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+ */
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: #fff;
+    box-shadow: none;
+}
+
+.right-caret:after,
+.left-caret:after {
+    content: "";
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    display: inline-block;
+    height: 0;
+    vertical-align: middle;
+    width: 0;
+    margin-left: 5px;
+}
+
+.right-caret:after {
+    border-left: 5px solid #ffaf46;
+}
+
+.left-caret:after {
+    border-right: 5px solid #ffaf46;
+}
+
+// ============ Sticky
+.navbar,
+navbar-default {
+    border-bottom: 0px solid #555;
+}
+
+.header .navbar-default {
+    background: #fff;
+    box-shadow: 0 0 5px #999;
+}
+
+.donate {
+    .campaign-list {
+        h2 {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+
+.package-details {
+    background: lighten($c1, 10%);
+    color: $c3;
+    border: 0;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.goToTop {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.programs-icon {
+    background-clip: padding-box;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #c2c2c2;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    width: 200px;
+    background-color: white;
+}
+
+.programs-icon.i2 {
+    background: #fff url("../images/village.png") no-repeat scroll center center;
+    background-color: #fff;
+}
+
+.programs-icon.i1 {
+    background: url("../images/schools.png") no-repeat scroll center center;
+     background-color: #fff;
+}
+
+.programs-icon.i3 {
+    background:  url("../images/digital-library.png") no-repeat scroll center center;
+     background-color: #fff;
+}
+
+.text p {
+    padding-right: 10px;
+    color: #3c3b36;
+    line-height: 25px;
+}
+
+.text h3 a {
+    color: #2E8AE6;
+    font-weight: bold;
+}
+
+#login-content {
+    background: #f2f2f2;
+    margin-left: -4px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    box-shadow: 2px 2px 2px #555;
+    margin-top: 10px;
+    padding: 30px 40px;
+    .login-home {
+        text-align: left;
+        .btn-login {
+            background: $c1;
+            border-radius: 2px;
+            color: #fff;
+        }
+    }
+}
+
+.img-how-it-works {
+    width: 100%;
+}
+
+.service {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    .service-blk {
+        margin-top: 10px;
+        .programs-icon{
+            height: 200px;
+            background-size: cover;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 0;
+        }
+    }
+}
+
+.things {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #77a94c url("images/donate.png") no-repeat scroll 20% 50%;
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.things .heading {
+    color: #fff;
+}
+
+.news {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.testimonials {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    padding-top: 40px;
+}
+
+.school-metric {
+    marquee {
+        ul {
+            li {
+                b {
+                    color: $c1;
+                }
+                border-bottom:1px dotted #bbb;
+                text-align:center;
+                padding:10px;
+            }
+        }
+    }
+}
+
+.footer {
+    .about2 {
+        border-right: 1px dotted #555;
+    }
+    .help2 {
+        border-right: 1px dotted #555;
+    }
+}
+
+.campaign {
+    .donate {
+        .campaign-list {
+            h2 {
+                &:hover {
+                    background: $c1;
+                    color: $c2;
+                }
+            }
+        }
+    }
+}
+
+.causes-info {
+    .donated-to {
+        height: 10px;
+        font-weight: bold;
+    }
+    span {
+        line-height: 20px;
+        font-size: 13px;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+}
+
+.campaign-strips {
+    padding: 5px;
+}
+
+.campaign-name {
+    color: #2e8ae6;
+}
+
+.donate-amount {
+    color: #2e8ae6;
+    font-size: 18px;
+}
+
+.inner-strips {
+    border: 1px solid #ccc;
+    padding: 0 10px 10px 10px;
+}
+
+.donate-home {
+    background: #77a94c;
+    color: #fff;
+    padding: 50PX 20px;
+}
+
+.donate-home .left-text {
+    border-right: 1px solid #f2f2f2;
+}
+
+.donate-home .right-text {
+    padding-top: 50px;
+}
+
+.donate-home .bottom-text {
+    text-align: center;
+}
+
+.donate-home #line {
+    background: rgba(0, 0, 0, 0.1) url("../images/donate-buttone.png") repeat-x scroll left center;
+    border-radius: 7px;
+    box-sizing: border-box;
+    height: 45px;
+    margin: 20px auto 0;
+    padding: 7px;
+    width: 1000px;
+}
+
+.donate-home #line .way {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0 padding-box;
+    border-radius: 7px;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.donate-home #line .way .bar {
+    background: #ffd200 url("../images/donate-buttone.png") repeat-x scroll left center padding-box;
+    border-radius: 7px 0 0 7px;
+    box-shadow: 0 -4px 0 0 #eea008 inset;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.donate-home h1,
+.donate-home h2,
+.donate-home h3,
+.donate-home h4,
+.donate-home h5 {
+    color: #fff;
+}
+
+.gv-modal {
+    background: #fff url("../images/map.png") repeat-x scroll left center padding-box;
+    padding: 50px 10px;
+}
+
+.gv-gallery {
+    background: #fff url("../images/map.png") repeat-x scroll left center padding-box;
+    padding: 100px 0;
+}
+
+.gv-gallery img {
+    width: 100%;
+    border-radius: 5px;
+    opocity: 0.5;
+}
+
+.gv-gallery .donor-details {
+    background: #fff;
+}
+
+.gv-gallery .name {
+    color: #70DB70;
+    font-family: arial;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.gv-gallery .details {
+    color: #999;
+    font-size: 13px;
+    display: inline-block;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 10px;
+}
+
+.gv-gallery .more {
+    padding-top: 0px;
+    text-align: right;
+    margin-top: -20px;
+    margin-right: 15px;
+    z-index: 999;
+    position: relative;    
+    a{
+        border: none;
+        border-radius: 0;
+        border-radius: 999px;
+    }
+}
+
+.gv-gallery{
+    
+    marquee{
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        box-shadow: 2px 2px 5px #ddd;
+        .name{
+            color: #000 !important;
+            display: block;
+            font-weight: 600;
+        }
+        .details{
+            color: #555 !important;
+            display: block;
+        }
+    }
+    .individual{
+        marquee{
+        height: 200px;
+        }
+    }
+    .home-adopted-blocks{
+        marquee{
+        height: 450px;
+            .pic{
+                img{
+                    
+                }
+            }
+        }
+    }
+}
+.testimonials-gv {
+    background: #f2f2f2;
+    padding: 30px 0;
+}
+
+.home-adopted-blocks{
+    .pics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .pic{
+            width: 48%;
+            border-radius: 0;
+        }
+    }
+}
+
+
+.donate-home{
+    text-align: center;
+    color: white;
+    
+    
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        .stat{
+            width: 20%;
+        }
+    }
+    
+    .fa{
+        font-size: 30px;
+        margin: 30px auto 30px auto;
+        border-radius: 99px;
+        border: 1px solid white;
+        width: 100px;
+        height: 100px;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    p{
+        text-align: center;
+    }
+    
+    .counter{
+        font-size: 40px;
+        color: #fff;
+    }
+    
+    .second p{
+        color: #fff;
+        text-align: center;
+    }
+}
+
+.pr-testimonials{
+    background-color:#eee;
+    width:100%;
+    padding:20px;
+    margin:35px 0;
+    h3{
+        margin-bottom: 0;
+    }
+    .testimonial_subtitle{
+        margin-bottom: 0;
+    }
+    .testimonial_para{
+        margin-bottom: 10px;
+    }
+}
+
+
+.sub-form {
+    width: 100%;
+    padding: 35px 0;
+    margin: 35px 0;    
+}
+
+.donate-btn {
+    background-color: #7bae4e;
+    padding:10px 50px;
+    font-weight:bold;
+    text-transform:uppercase;
+    border:none;
+    margin-bottom:20px;
+}
+
+.pr-highlight{
+    text-align: center;
+    padding: 12px;
+    font-style: italic;
+    color: #f47b3a;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.adopt-left-block{
+    .btn-link{
+    font-weight:700;
+    font-size: 17px;
+        padding-left: 0;
+    }
+}
+
+
+.pr-list-tables{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    table{
+        min-height: 400px;
+        width: 100%;
+            box-shadow: 2px 2px 5px #ddd;
+        tr{
+            td{
+                padding: 15px;
+                border: 1px solid #eee;
+                height: 80px;
+                text-align: center;
+                font-weight: 500;
+            }
+        }
+        
+        thead{
+            background-color: #f00;
+            td{
+                height: 60px; 
+                color: white;
+                font-size: 20px;
+                font-weight: 600;
+                
+            }
+        }
+        tbody{
+            background-color: #fff;            
+        }
+    }
+    
+    .col-md-4{
+        &:nth-of-type(1){ table{
+            thead{
+                td{
+                    background-color: #ffab09;
+                }
+            }
+            } }
+        &:nth-of-type(2){ table{
+            thead{
+                td{
+                    background-color: #166caf;
+                }
+            }
+            } }
+        &:nth-of-type(3){ table{
+            thead{
+                td{
+                    background-color: #8ca754;
+                }
+            }
+            } }
+                
+    }
+}

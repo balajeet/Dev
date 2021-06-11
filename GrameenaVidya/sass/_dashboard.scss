@@ -1,0 +1,19 @@
+
+	.dashboard
+		{
+		.donated-box{
+		background:#f2f2f2;
+		border-top-left-radius:30px;
+		border-bottom-right-radius:30px;
+		border:1px solid $c1;
+		border-bottom:10px solid $c1;		
+		&:hover{background:$c2; color:$c3; border-bottom:10px solid $c1;}
+		}
+		}
+		
+	.myprofile{
+
+		padding-top:20px;	
+		overflow:hidden;		
+		.control-label{ margin-top:15px;}
+	}

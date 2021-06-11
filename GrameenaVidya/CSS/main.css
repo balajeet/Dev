@@ -1,0 +1,14 @@
+.popover25 {
+	padding: 20px;
+	background-color: #eaeaea;
+	position: absolute;
+	display: none;
+	border-color: #444141;
+	border-style: solid;
+	border-width: 3px;
+	height: 150px;
+	width: 300px;
+	z-index: 2;
+	
+}
+

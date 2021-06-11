@@ -1,0 +1,1805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1BBEFBE-DE2F-425D-AA27-EA37995D6680}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GrameenaVidya</RootNamespace>
+    <AssemblyName>GrameenaVidya</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\..\..\GV\GrameenaVidya\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAccess">
+      <HintPath>..\..\..\..\GrameenaVidya4.1\GrameenaVidya4.1\bin\DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="MCPG.CCA.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3d7072b2634875da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MCPG.CCA.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUS\about-background.aspx" />
+    <Content Include="AboutUS\about-board.aspx" />
+    <Content Include="AboutUS\about-ctrd.aspx" />
+    <Content Include="AboutUS\about-mission.aspx" />
+    <Content Include="AboutUS\about-model.aspx" />
+    <Content Include="AboutUS\about-smart-content.aspx" />
+    <Content Include="Benfits\Community.aspx" />
+    <Content Include="Benfits\Schools.aspx" />
+    <Content Include="Benfits\Sponsers.aspx" />
+    <Content Include="Benfits\Students.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\DataAccess.dll" />
+    <Content Include="bin\GrameenaVidya.dll" />
+    <Content Include="bin\GrameenaVidya.pdb" />
+    <Content Include="bin\MCPG.CCA.Util.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bnr3.jpg" />
+    <Content Include="CampaignsImages\adopt-a-school.jpg" />
+    <Content Include="CampaignsImages\campaing2.jpg" />
+    <Content Include="CampaignsImages\campaing3.jpg" />
+    <Content Include="CampaignsImages\adopt-a-scholol.jpg" />
+    <Content Include="Campaigns\CampaignDetails.aspx" />
+    <Content Include="Campaigns\CampaignDonate.aspx" />
+    <Content Include="Campaigns\CampaignLanding.aspx" />
+    <Content Include="Campaigns\CreateCampaigns.aspx" />
+    <Content Include="Campaigns\Default.aspx" />
+    <Content Include="Campaigns\Donate.aspx" />
+    <Content Include="Campaigns\FundraisingCampaigns.aspx" />
+    <Content Include="Campaigns\OngoingCampaigns.aspx" />
+    <Content Include="Campaigns\Success.aspx" />
+    <Content Include="Controls\AsideControl.ascx" />
+    <Content Include="Controls\AsideRight.ascx" />
+    <Content Include="Controls\AsideRight33.ascx" />
+    <Content Include="Controls\AsideStu_right.ascx" />
+    <Content Include="Controls\Aside_right.ascx" />
+    <Content Include="Controls\Banner.ascx" />
+    <Content Include="Controls\BreadCrumbs.ascx" />
+    <Content Include="Controls\Campaign.ascx" />
+    <Content Include="Controls\ChangePassword.ascx" />
+    <Content Include="Controls\DigitalInclusion_right.ascx" />
+    <Content Include="Controls\DonateControl.ascx" />
+    <Content Include="Controls\EnqueryForm.ascx" />
+    <Content Include="Controls\Footer.ascx" />
+    <Content Include="Controls\FooterScriptsControl.ascx" />
+    <Content Include="Controls\Getinvolved.ascx" />
+    <Content Include="Controls\LatestAdoptedSchools.ascx" />
+    <Content Include="Controls\MediaControl.ascx" />
+    <Content Include="Controls\MenuInside.ascx" />
+    <Content Include="Controls\MenuInsideNew.ascx" />
+    <Content Include="Controls\MenuOutsideNew.ascx" />
+    <Content Include="Controls\MultiCheckCombo.ascx" />
+    <Content Include="Controls\MyProfile.ascx" />
+    <Content Include="Controls\NewSchoolForm.ascx" />
+    <Content Include="Controls\NewStudentForm.ascx" />
+    <Content Include="Controls\OutSideMenu.ascx" />
+    <Content Include="Controls\SocialMedia.ascx" />
+    <Content Include="Controls\StudentsList.ascx" />
+    <Content Include="Controls\Testing.ascx" />
+    <Content Include="Controls\testmonials.ascx" />
+    <Content Include="Controls\ViewSchools.ascx" />
+    <Content Include="CSS\AjaxLoader.html" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\bootstrap.vertical-tabs.css" />
+    <Content Include="CSS\component.css" />
+    <Content Include="CSS\custom.css" />
+    <Content Include="CSS\default.css" />
+    <Content Include="CSS\donate.css" />
+    <Content Include="CSS\font-awesome.min.css" />
+    <Content Include="CSS\grabbing.html" />
+    <Content Include="CSS\helper.css" />
+    <Content Include="CSS\jquery.mobile-1.4.2.min.css" />
+    <Content Include="CSS\main.css" />
+    <Content Include="CSS\owl.carousel.css" />
+    <Content Include="CSS\owl.theme.css" />
+    <Content Include="CSS\pe-icon-line.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="Donate\ccavRequestHandler.aspx" />
+    <Content Include="Donate\ccavResponseHandler.aspx" />
+    <Content Include="Donate\Default1.aspx" />
+    <Content Include="Donate\Donate.aspx" />
+    <Content Include="Donate\DonateDetails.aspx" />
+    <Content Include="Donate\Donate_.aspx" />
+    <Content Include="Donate\Donate_New.aspx" />
+    <Content Include="Donate\PaymentStatus.aspx" />
+    <Content Include="Donate\PurchaseOrder.aspx" />
+    <Content Include="Donate\StudentForm.aspx" />
+    <Content Include="Donate\Success.aspx" />
+    <Content Include="fonts\codropsicons\codropsicons.svg" />
+    <Content Include="fonts\codropsicons\license.txt" />
+    <Content Include="fonts\ecoicons\ecoicon.dev.svg" />
+    <Content Include="fonts\ecoicons\ecoicon.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="font\fontawesome-webfont862f.svg" />
+    <Content Include="font\Pe-icon-linef48e.svg" />
+    <Content Include="GetInvolved\CampaignLanding.aspx" />
+    <Content Include="GetInvolved\FAQ.aspx" />
+    <Content Include="GetInvolved\HowToDonate.aspx" />
+    <Content Include="GetInvolved\SiteMap.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images\--logo - Copy.png" />
+    <Content Include="images\1. bala.jpg" />
+    <Content Include="images\2. yashodra.JPG" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\404.png" />
+    <Content Include="images\6.1.jpg" />
+    <Content Include="images\ab_pic-1.jpg" />
+    <Content Include="images\adopt-a-school.jpg" />
+    <Content Include="images\adopt-a-student.jpeg" />
+    <Content Include="images\artifacts.png" />
+    <Content Include="images\a_pic-1.jpg" />
+    <Content Include="images\a_pic-2.jpg" />
+    <Content Include="images\a_pic-3.jpg" />
+    <Content Include="images\a_pic-4.jpg" />
+    <Content Include="images\a_pic-5.jpg" />
+    <Content Include="images\a_pic-6.jpg" />
+    <Content Include="images\banner-1.jpg" />
+    <Content Include="images\bck1.jpg" />
+    <Content Include="images\bck2.jpg" />
+    <Content Include="images\bck3-1.jpg" />
+    <Content Include="images\bck3.jpg" />
+    <Content Include="images\bck4.jpg" />
+    <Content Include="images\bck5.jpg" />
+    <Content Include="images\bck6.jpg" />
+    <Content Include="images\bck7.png" />
+    <Content Include="images\bck8.jpg" />
+    <Content Include="images\bck9.jpg" />
+    <Content Include="images\bg-ptrn.jpg" />
+    <Content Include="images\blog_pic-1.jpg" />
+    <Content Include="images\blog_pic-2.jpg" />
+    <Content Include="images\blog_pic-3.jpg" />
+    <Content Include="images\bnr-1.jpg" />
+    <Content Include="images\bnr-2.jpg" />
+    <Content Include="images\bnr-3.jpg" />
+    <Content Include="images\bnr-4.jpg" />
+    <Content Include="images\bnr-5.jpg" />
+    <Content Include="images\bnr-6.jpg" />
+    <Content Include="images\bnr-7.jpg" />
+    <Content Include="images\bnr.jpg" />
+    <Content Include="images\bnr3.jpg" />
+    <Content Include="images\bnr\banner-1.jpg" />
+    <Content Include="images\bnr\bnr-2.jpg" />
+    <Content Include="images\bnr\bnr-4 - Copy - Copy.jpg" />
+    <Content Include="images\bnr\bnr-6.jpg" />
+    <Content Include="images\bnr\bnr-7.jpg" />
+    <Content Include="images\bnr\bnr.jpg" />
+    <Content Include="images\bnr\bnr3.jpg" />
+    <Content Include="images\bnr\slide1.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\corporate.jpg" />
+    <Content Include="images\cyinet-gv%281%29.jpg" />
+    <Content Include="images\details_close.png" />
+    <Content Include="images\details_open.png" />
+    <Content Include="images\digital-library.png" />
+    <Content Include="images\DigitalInclusion.PNG" />
+    <Content Include="images\donate-buttone.png" />
+    <Content Include="images\donet-pic.jpg" />
+    <Content Include="images\d_team-1.jpg" />
+    <Content Include="images\d_team-2.jpg" />
+    <Content Include="images\d_team-3.jpg" />
+    <Content Include="images\d_team-4.jpg" />
+    <Content Include="images\e-pic-1.jpg" />
+    <Content Include="images\e_pic-1.jpg" />
+    <Content Include="images\e_pic-2.jpg" />
+    <Content Include="images\f9 copy.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\grameena-modal.jpg" />
+    <Content Include="images\how-it-works.jpg" />
+    <Content Include="images\locations.jpg" />
+    <Content Include="images\logo-2.png" />
+    <Content Include="images\logo-3.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\map.png" />
+    <Content Include="images\media\1.jpg" />
+    <Content Include="images\media\1th.jpg" />
+    <Content Include="images\media\2.jpg" />
+    <Content Include="images\media\2th.jpg" />
+    <Content Include="images\media\3.jpg" />
+    <Content Include="images\media\3th.jpg" />
+    <Content Include="images\media\4.jpg" />
+    <Content Include="images\media\4th.jpg" />
+    <Content Include="images\media\5.jpg" />
+    <Content Include="images\media\5th.jpg" />
+    <Content Include="images\media\6.jpg" />
+    <Content Include="images\media\6th.jpg" />
+    <Content Include="images\media\7.jpg" />
+    <Content Include="images\media\7th.jpg" />
+    <Content Include="images\media\Cyient.jpg" />
+    <Content Include="images\media\cyinet-gv%281%29.jpg" />
+    <Content Include="images\media\events\2015\April\au\1.jpg" />
+    <Content Include="images\media\events\2015\April\au\2.jpg" />
+    <Content Include="images\media\events\2015\April\au\3.jpg" />
+    <Content Include="images\media\events\2015\April\au\4.jpg" />
+    <Content Include="images\media\events\2015\April\au\5.jpg" />
+    <Content Include="images\media\events\2015\April\au\rao.jpg" />
+    <Content Include="images\media\events\2015\April\au\rao1.jpg" />
+    <Content Include="images\media\events\2015\April\knm\1.jpg" />
+    <Content Include="images\media\events\2015\April\knm\2.jpg" />
+    <Content Include="images\media\events\2015\April\knm\3.jpg" />
+    <Content Include="images\media\events\2015\August\cyient\cyinet-gv%281%29.jpg" />
+    <Content Include="images\media\events\2015\August\cyient\gv1.jpg" />
+    <Content Include="images\media\events\2015\August\kdpm\IMG_20150805_162235.jpg" />
+    <Content Include="images\media\events\2015\August\kdpm\IMG_20150805_162253149 %281%29.jpg" />
+    <Content Include="images\media\events\2015\August\kdpm\IMG_20150805_162323.jpg" />
+    <Content Include="images\media\events\2015\August\kdpm\IMG_20150805_162702.jpg" />
+    <Content Include="images\media\events\2015\August\kdpm\IMG_20150805_162902.jpg" />
+    <Content Include="images\media\events\2015\June\ghs bheemili\photo new school.jpg" />
+    <Content Include="images\media\events\2015\June\zphs madhuruwadha\IMG_11473.JPG" />
+    <Content Include="images\media\events\2015\June\zphs madhuruwadha\IMG_1473.JPG" />
+    <Content Include="images\new-pic1.jpg" />
+    <Content Include="images\new-pic2.jpg" />
+    <Content Include="images\new-pic3.jpg" />
+    <Content Include="images\new-pic4.jpg" />
+    <Content Include="images\our-content.jpg" />
+    <Content Include="images\our-mission.jpg" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\photo-gallery\au\1.jpg" />
+    <Content Include="images\photo-gallery\au\2.jpg" />
+    <Content Include="images\photo-gallery\au\3.jpg" />
+    <Content Include="images\photo-gallery\au\4.jpg" />
+    <Content Include="images\photo-gallery\au\5.jpg" />
+    <Content Include="images\photo-gallery\au\rao.jpg" />
+    <Content Include="images\photo-gallery\Bheemili\photo new school.jpg" />
+    <Content Include="images\photo-gallery\Cyient\gv1.jpg" />
+    <Content Include="images\photo-gallery\Cyient\gv2.jpg" />
+    <Content Include="images\photo-gallery\Kdpm\IMG_20150805_162235.jpg" />
+    <Content Include="images\photo-gallery\Kdpm\IMG_20150805_162323.jpg" />
+    <Content Include="images\photo-gallery\Kdpm\IMG_20150805_162702.jpg" />
+    <Content Include="images\photo-gallery\Kdpm\IMG_20150805_162902.jpg" />
+    <Content Include="images\photo-gallery\knm\1.jpg" />
+    <Content Include="images\photo-gallery\knm\2.jpg" />
+    <Content Include="images\photo-gallery\knm\3.jpg" />
+    <Content Include="images\photo-gallery\Madhuruwadha\IMG_1473.JPG" />
+    <Content Include="images\photo2.jpg" />
+    <Content Include="images\Photowithsign.JPG" />
+    <Content Include="images\prasad-garu.jpg" />
+    <Content Include="images\program-1.png" />
+    <Content Include="images\program-2.png" />
+    <Content Include="images\ptn.png" />
+    <Content Include="images\p_pic-2.jpg" />
+    <Content Include="images\p_pic-3.jpg" />
+    <Content Include="images\p_pic-4.jpg" />
+    <Content Include="images\p_pic-5.jpg" />
+    <Content Include="images\p_pic-6.jpg" />
+    <Content Include="images\school.png" />
+    <Content Include="images\SchoolImages\100_1IMG_20150109_134014.jpg" />
+    <Content Include="images\SchoolImages\100_2IMG_20150109_134028.jpg" />
+    <Content Include="images\SchoolImages\100_3IMG_20150109_134042.jpg" />
+    <Content Include="images\SchoolImages\100_4IMG_20150109_134057.jpg" />
+    <Content Include="images\SchoolImages\100_5IMG_20150109_134150.jpg" />
+    <Content Include="images\SchoolImages\100_6IMG_20150109_134155.jpg" />
+    <Content Include="images\SchoolImages\100_7IMG_20150109_134159.jpg" />
+    <Content Include="images\SchoolImages\101_1IMG_20150109_125124.jpg" />
+    <Content Include="images\SchoolImages\101_2IMG_20150109_125136.jpg" />
+    <Content Include="images\SchoolImages\101_3IMG_20150109_125244.jpg" />
+    <Content Include="images\SchoolImages\101_4IMG_20150109_131342.jpg" />
+    <Content Include="images\SchoolImages\101_5IMG_20150109_131352.jpg" />
+    <Content Include="images\SchoolImages\101_6IMG_20150109_131354.jpg" />
+    <Content Include="images\SchoolImages\101_7IMG_20150109_125203.jpg" />
+    <Content Include="images\SchoolImages\102_1IMG_20150109_120950.jpg" />
+    <Content Include="images\SchoolImages\102_2IMG_20150109_121014.jpg" />
+    <Content Include="images\SchoolImages\102_3IMG_20150109_121114.jpg" />
+    <Content Include="images\SchoolImages\102_4IMG_20150109_121044.jpg" />
+    <Content Include="images\SchoolImages\102_5IMG_20150109_121228.jpg" />
+    <Content Include="images\SchoolImages\102_6IMG_20150109_121139.jpg" />
+    <Content Include="images\SchoolImages\102_7IMG_20150109_122635.jpg" />
+    <Content Include="images\SchoolImages\103_1IMG_20150119_115026.jpg" />
+    <Content Include="images\SchoolImages\103_2IMG_20150119_115015.jpg" />
+    <Content Include="images\SchoolImages\103_3IMG_20150119_115125.jpg" />
+    <Content Include="images\SchoolImages\103_4IMG_20150119_115141.jpg" />
+    <Content Include="images\SchoolImages\103_5IMG_20150119_115131.jpg" />
+    <Content Include="images\SchoolImages\103_6IMG_20150119_115245.jpg" />
+    <Content Include="images\SchoolImages\103_7IMG_20150119_115010.jpg" />
+    <Content Include="images\SchoolImages\104_1IMG_20150128_125839.jpg" />
+    <Content Include="images\SchoolImages\104_2IMG_20150128_125209.jpg" />
+    <Content Include="images\SchoolImages\104_3IMG_20150128_125729.jpg" />
+    <Content Include="images\SchoolImages\104_4IMG_20150128_125751.jpg" />
+    <Content Include="images\SchoolImages\104_5IMG_20150128_130330.jpg" />
+    <Content Include="images\SchoolImages\104_6IMG_20150128_130609.jpg" />
+    <Content Include="images\SchoolImages\104_7IMG_20150128_130624.jpg" />
+    <Content Include="images\SchoolImages\105_1IMG_20150128_113700.jpg" />
+    <Content Include="images\SchoolImages\105_2IMG_20150128_113815.jpg" />
+    <Content Include="images\SchoolImages\105_3IMG_20150128_113830.jpg" />
+    <Content Include="images\SchoolImages\105_4IMG_20150128_113736.jpg" />
+    <Content Include="images\SchoolImages\105_5IMG_20150128_113626.jpg" />
+    <Content Include="images\SchoolImages\105_6IMG_20150128_113613.jpg" />
+    <Content Include="images\SchoolImages\105_7IMG_20150128_113557.jpg" />
+    <Content Include="images\SchoolImages\106_1IMG_20150128_143111.jpg" />
+    <Content Include="images\SchoolImages\106_2IMG_20150128_142848.jpg" />
+    <Content Include="images\SchoolImages\106_3IMG_20150128_142854.jpg" />
+    <Content Include="images\SchoolImages\106_4IMG_20150128_142911.jpg" />
+    <Content Include="images\SchoolImages\106_5IMG_20150128_142921.jpg" />
+    <Content Include="images\SchoolImages\106_6IMG_20150128_143119.jpg" />
+    <Content Include="images\SchoolImages\106_7IMG_20150128_143128.jpg" />
+    <Content Include="images\SchoolImages\106_8IMG_20150128_143043.jpg" />
+    <Content Include="images\SchoolImages\107_1IMG_20150128_133824.jpg" />
+    <Content Include="images\SchoolImages\107_2IMG_20150128_133554.jpg" />
+    <Content Include="images\SchoolImages\107_3IMG_20150128_133601.jpg" />
+    <Content Include="images\SchoolImages\107_4IMG_20150128_133704.jpg" />
+    <Content Include="images\SchoolImages\107_5IMG_20150128_133709.jpg" />
+    <Content Include="images\SchoolImages\107_6IMG_20150128_133753.jpg" />
+    <Content Include="images\SchoolImages\107_7IMG_20150128_133835.jpg" />
+    <Content Include="images\SchoolImages\108_1IMG_1058.JPG" />
+    <Content Include="images\SchoolImages\108_2IMG_1059.JPG" />
+    <Content Include="images\SchoolImages\108_3IMG_1060.JPG" />
+    <Content Include="images\SchoolImages\108_4IMG_1061.JPG" />
+    <Content Include="images\SchoolImages\109_1IMG_1063.JPG" />
+    <Content Include="images\SchoolImages\109_2IMG_1067.JPG" />
+    <Content Include="images\SchoolImages\109_3IMG_1068.JPG" />
+    <Content Include="images\SchoolImages\109_4IMG_1066.JPG" />
+    <Content Include="images\SchoolImages\110_1IMG_1063.JPG" />
+    <Content Include="images\SchoolImages\110_2IMG_1067.JPG" />
+    <Content Include="images\SchoolImages\110_3IMG_1068.JPG" />
+    <Content Include="images\SchoolImages\110_4IMG_1066.JPG" />
+    <Content Include="images\SchoolImages\111_1IMG_1043.JPG" />
+    <Content Include="images\SchoolImages\111_2IMG_1045.JPG" />
+    <Content Include="images\SchoolImages\111_3IMG_1046.JPG" />
+    <Content Include="images\SchoolImages\111_4IMG_1049.JPG" />
+    <Content Include="images\SchoolImages\112_1IMG_1043.JPG" />
+    <Content Include="images\SchoolImages\112_2IMG_1045.JPG" />
+    <Content Include="images\SchoolImages\112_3IMG_1046.JPG" />
+    <Content Include="images\SchoolImages\112_4IMG_1049.JPG" />
+    <Content Include="images\SchoolImages\113_1IMG_1053.JPG" />
+    <Content Include="images\SchoolImages\113_2IMG_1055.JPG" />
+    <Content Include="images\SchoolImages\113_3IMG_1057.JPG" />
+    <Content Include="images\SchoolImages\113_4IMG_1052.JPG" />
+    <Content Include="images\SchoolImages\114_1IMG_0933.JPG" />
+    <Content Include="images\SchoolImages\114_2IMG_0936.JPG" />
+    <Content Include="images\SchoolImages\114_3IMG_0938.JPG" />
+    <Content Include="images\SchoolImages\114_4IMG_0939.JPG" />
+    <Content Include="images\SchoolImages\115_1IMG_0942.JPG" />
+    <Content Include="images\SchoolImages\115_2IMG_0944.JPG" />
+    <Content Include="images\SchoolImages\115_3IMG_0946.JPG" />
+    <Content Include="images\SchoolImages\115_4IMG_0943.JPG" />
+    <Content Include="images\SchoolImages\116_1IMG_0789.JPG" />
+    <Content Include="images\SchoolImages\116_2IMG_0901.JPG" />
+    <Content Include="images\SchoolImages\116_3IMG_0902.JPG" />
+    <Content Include="images\SchoolImages\116_4IMG_0788.JPG" />
+    <Content Include="images\SchoolImages\117_1IMG_0779.JPG" />
+    <Content Include="images\SchoolImages\117_2IMG_0790.JPG" />
+    <Content Include="images\SchoolImages\117_3IMG_0791.JPG" />
+    <Content Include="images\SchoolImages\117_4IMG_0784.JPG" />
+    <Content Include="images\SchoolImages\118_1IMG_0977.JPG" />
+    <Content Include="images\SchoolImages\118_2IMG_0983.JPG" />
+    <Content Include="images\SchoolImages\118_3IMG_0980.JPG" />
+    <Content Include="images\SchoolImages\118_4IMG_0981.JPG" />
+    <Content Include="images\SchoolImages\119_1IMG_0882.JPG" />
+    <Content Include="images\SchoolImages\119_2IMG_0880.JPG" />
+    <Content Include="images\SchoolImages\119_3IMG_0879.JPG" />
+    <Content Include="images\SchoolImages\119_4IMG_0878.JPG" />
+    <Content Include="images\SchoolImages\120_1IMG_0894.JPG" />
+    <Content Include="images\SchoolImages\120_2IMG_0898.JPG" />
+    <Content Include="images\SchoolImages\120_3IMG_0900.JPG" />
+    <Content Include="images\SchoolImages\120_4IMG_0897.JPG" />
+    <Content Include="images\SchoolImages\121_1IMG_0827.JPG" />
+    <Content Include="images\SchoolImages\121_2IMG_0829.JPG" />
+    <Content Include="images\SchoolImages\121_3IMG_0830.JPG" />
+    <Content Include="images\SchoolImages\121_4IMG_0831.JPG" />
+    <Content Include="images\SchoolImages\122_1IMG_0867.JPG" />
+    <Content Include="images\SchoolImages\122_2IMG_0864.JPG" />
+    <Content Include="images\SchoolImages\122_3IMG_0866.JPG" />
+    <Content Include="images\SchoolImages\122_4IMG_0865.JPG" />
+    <Content Include="images\SchoolImages\123_1IMG_0816.JPG" />
+    <Content Include="images\SchoolImages\123_2IMG_0814.JPG" />
+    <Content Include="images\SchoolImages\123_3IMG_0819.JPG" />
+    <Content Include="images\SchoolImages\123_4IMG_0820.JPG" />
+    <Content Include="images\SchoolImages\124_1IMG_0807.JPG" />
+    <Content Include="images\SchoolImages\124_2IMG_0805.JPG" />
+    <Content Include="images\SchoolImages\124_3IMG_0810.JPG" />
+    <Content Include="images\SchoolImages\124_4IMG_0811.JPG" />
+    <Content Include="images\SchoolImages\125_1IMG_0835.JPG" />
+    <Content Include="images\SchoolImages\125_2IMG_0838.JPG" />
+    <Content Include="images\SchoolImages\125_3IMG_0840.JPG" />
+    <Content Include="images\SchoolImages\125_4IMG_0834.JPG" />
+    <Content Include="images\SchoolImages\126_1IMG_0745.JPG" />
+    <Content Include="images\SchoolImages\126_2IMG_0750.JPG" />
+    <Content Include="images\SchoolImages\126_3IMG_0747.JPG" />
+    <Content Include="images\SchoolImages\126_4IMG_0751.JPG" />
+    <Content Include="images\SchoolImages\127_1IMG_0798.JPG" />
+    <Content Include="images\SchoolImages\127_2IMG_0801.JPG" />
+    <Content Include="images\SchoolImages\127_3IMG_0797.JPG" />
+    <Content Include="images\SchoolImages\127_4IMG_0800.JPG" />
+    <Content Include="images\SchoolImages\128_1IMG_0762.JPG" />
+    <Content Include="images\SchoolImages\128_2IMG_0759.JPG" />
+    <Content Include="images\SchoolImages\128_3IMG_0758.JPG" />
+    <Content Include="images\SchoolImages\128_4IMG_0763.JPG" />
+    <Content Include="images\SchoolImages\129_1IMG_0890.JPG" />
+    <Content Include="images\SchoolImages\129_2IMG_0889.JPG" />
+    <Content Include="images\SchoolImages\129_3IMG_0887.JPG" />
+    <Content Include="images\SchoolImages\129_4IMG_0886.JPG" />
+    <Content Include="images\SchoolImages\130_1IMG_0795.JPG" />
+    <Content Include="images\SchoolImages\130_2IMG_0794.JPG" />
+    <Content Include="images\SchoolImages\130_3IMG_0793.JPG" />
+    <Content Include="images\SchoolImages\130_4IMG_0792.JPG" />
+    <Content Include="images\SchoolImages\131_1IMG_20150123_123045.jpg" />
+    <Content Include="images\SchoolImages\131_2IMG_20150123_123200.jpg" />
+    <Content Include="images\SchoolImages\131_3IMG_20150123_123624.jpg" />
+    <Content Include="images\SchoolImages\131_4IMG_20150123_151819.jpg" />
+    <Content Include="images\SchoolImages\131_5IMG_20150123_151827.jpg" />
+    <Content Include="images\SchoolImages\131_6IMG_20150123_151840.jpg" />
+    <Content Include="images\SchoolImages\131_7IMG_20150123_151845.jpg" />
+    <Content Include="images\SchoolImages\131_8IMG_20150123_151829.jpg" />
+    <Content Include="images\SchoolImages\132_1IMG_20150131_154842.jpg" />
+    <Content Include="images\SchoolImages\132_2IMG_20150131_154905.jpg" />
+    <Content Include="images\SchoolImages\132_3IMG_20150131_154945.jpg" />
+    <Content Include="images\SchoolImages\132_4IMG_20150131_155001.jpg" />
+    <Content Include="images\SchoolImages\132_5IMG_20150131_155005.jpg" />
+    <Content Include="images\SchoolImages\132_6IMG_20150131_155009.jpg" />
+    <Content Include="images\SchoolImages\133_1IMG_20150131_152613.jpg" />
+    <Content Include="images\SchoolImages\133_2IMG_20150131_152557.jpg" />
+    <Content Include="images\SchoolImages\133_3IMG_20150131_152630.jpg" />
+    <Content Include="images\SchoolImages\133_4IMG_20150131_152748.jpg" />
+    <Content Include="images\SchoolImages\133_5IMG_20150131_152755.jpg" />
+    <Content Include="images\SchoolImages\133_6IMG_20150131_152759.jpg" />
+    <Content Include="images\SchoolImages\134_1IMG_20150131_144951.jpg" />
+    <Content Include="images\SchoolImages\134_2IMG_20150131_145005.jpg" />
+    <Content Include="images\SchoolImages\134_3IMG_20150131_145026.jpg" />
+    <Content Include="images\SchoolImages\134_4IMG_20150131_145251.jpg" />
+    <Content Include="images\SchoolImages\134_5IMG_20150131_145256.jpg" />
+    <Content Include="images\SchoolImages\134_6IMG_20150131_145301.jpg" />
+    <Content Include="images\SchoolImages\134_7IMG_20150131_145416.jpg" />
+    <Content Include="images\SchoolImages\135_1Hydrangeas.jpg" />
+    <Content Include="images\SchoolImages\136_1Chrysanthemum.jpg" />
+    <Content Include="images\SchoolImages\137_1IMG_20150123_135236.jpg" />
+    <Content Include="images\SchoolImages\137_2IMG_20150123_135207.jpg" />
+    <Content Include="images\SchoolImages\137_3IMG_20150123_135153.jpg" />
+    <Content Include="images\SchoolImages\137_4IMG_20150123_135126.jpg" />
+    <Content Include="images\SchoolImages\137_5IMG_20150123_135051.jpg" />
+    <Content Include="images\SchoolImages\137_6IMG_20150123_135050.jpg" />
+    <Content Include="images\SchoolImages\138_1IMG_20150123_123607.jpg" />
+    <Content Include="images\SchoolImages\138_2IMG_20150123_123546.jpg" />
+    <Content Include="images\SchoolImages\138_3IMG_20150123_123522.jpg" />
+    <Content Include="images\SchoolImages\138_4IMG_20150123_123445.jpg" />
+    <Content Include="images\SchoolImages\138_5IMG_20150123_123557.jpg" />
+    <Content Include="images\SchoolImages\138_6IMG_20150123_123612.jpg" />
+    <Content Include="images\SchoolImages\139_1IMG_20150128_114110.jpg" />
+    <Content Include="images\SchoolImages\139_2IMG_20150128_114123.jpg" />
+    <Content Include="images\SchoolImages\139_3IMG_20150128_114126.jpg" />
+    <Content Include="images\SchoolImages\139_4IMG_20150128_121047.jpg" />
+    <Content Include="images\SchoolImages\140_1IMG_20150124_132213.jpg" />
+    <Content Include="images\SchoolImages\140_2IMG_20150124_132202.jpg" />
+    <Content Include="images\SchoolImages\140_3IMG_20150124_131704.jpg" />
+    <Content Include="images\SchoolImages\140_4IMG_20150124_125504.jpg" />
+    <Content Include="images\SchoolImages\140_5IMG_20150124_125426.jpg" />
+    <Content Include="images\SchoolImages\141_1IMG_20150124_132213.jpg" />
+    <Content Include="images\SchoolImages\141_2IMG_20150124_132202.jpg" />
+    <Content Include="images\SchoolImages\141_3IMG_20150124_131500.jpg" />
+    <Content Include="images\SchoolImages\141_4IMG_20150124_131440.jpg" />
+    <Content Include="images\SchoolImages\141_5IMG_20150124_131433.jpg" />
+    <Content Include="images\SchoolImages\142_1IMG_20150128_121445.jpg" />
+    <Content Include="images\SchoolImages\142_2IMG_20150128_121425.jpg" />
+    <Content Include="images\SchoolImages\142_3IMG_20150128_121405.jpg" />
+    <Content Include="images\SchoolImages\142_4IMG_20150128_121337.jpg" />
+    <Content Include="images\SchoolImages\142_5IMG_20150128_121324.jpg" />
+    <Content Include="images\SchoolImages\142_6IMG_20150128_121305.jpg" />
+    <Content Include="images\SchoolImages\143_1IMG_20150128_125200.jpg" />
+    <Content Include="images\SchoolImages\143_2IMG_20150128_124752.jpg" />
+    <Content Include="images\SchoolImages\143_3IMG_20150128_125001.jpg" />
+    <Content Include="images\SchoolImages\143_4IMG_20150128_124800.jpg" />
+    <Content Include="images\SchoolImages\143_5IMG_20150128_124701.jpg" />
+    <Content Include="images\SchoolImages\144_1IMG_20150128_133635.jpg" />
+    <Content Include="images\SchoolImages\144_2IMG_20150128_133633.jpg" />
+    <Content Include="images\SchoolImages\144_3IMG_20150128_133539.jpg" />
+    <Content Include="images\SchoolImages\144_4IMG_20150128_133527.jpg" />
+    <Content Include="images\SchoolImages\144_5IMG_20150128_133515.jpg" />
+    <Content Include="images\SchoolImages\145_1IMG_20150128_140407.jpg" />
+    <Content Include="images\SchoolImages\145_2IMG_20150128_140415.jpg" />
+    <Content Include="images\SchoolImages\145_3IMG_20150128_140429.jpg" />
+    <Content Include="images\SchoolImages\145_4IMG_20150128_140418.jpg" />
+    <Content Include="images\SchoolImages\146_1IMG_20150109_143251.jpg" />
+    <Content Include="images\SchoolImages\146_2IMG_20150109_143255.jpg" />
+    <Content Include="images\SchoolImages\146_3IMG_20150109_143257.jpg" />
+    <Content Include="images\SchoolImages\146_4IMG_20150109_143300.jpg" />
+    <Content Include="images\SchoolImages\146_5IMG_20150109_143313.jpg" />
+    <Content Include="images\SchoolImages\146_6IMG_20150109_143323.jpg" />
+    <Content Include="images\SchoolImages\147_1IMG_20150109_124109.jpg" />
+    <Content Include="images\SchoolImages\147_2IMG_20150109_124055.jpg" />
+    <Content Include="images\SchoolImages\147_3IMG_20150109_124042.jpg" />
+    <Content Include="images\SchoolImages\147_4IMG_20150109_124129.jpg" />
+    <Content Include="images\SchoolImages\147_5IMG_20150109_124219.jpg" />
+    <Content Include="images\SchoolImages\147_6IMG_20150109_124027.jpg" />
+    <Content Include="images\SchoolImages\147_7IMG_20150109_124645.jpg" />
+    <Content Include="images\SchoolImages\148_1IMG-20150330-WA0004.jpg" />
+    <Content Include="images\SchoolImages\148_2IMG-20150330-WA0008.jpg" />
+    <Content Include="images\SchoolImages\148_3IMG-20150330-WA0009.jpg" />
+    <Content Include="images\SchoolImages\148_4IMG-20150330-WA0002.jpg" />
+    <Content Include="images\SchoolImages\149_1IMG-20150330-WA0007.jpg" />
+    <Content Include="images\SchoolImages\149_2IMG-20150330-WA0018.jpg" />
+    <Content Include="images\SchoolImages\149_3IMG-20150330-WA0003.jpg" />
+    <Content Include="images\SchoolImages\149_4IMG-20150330-WA0019.jpg" />
+    <Content Include="images\SchoolImages\150_1IMG-20150330-WA0009.jpg" />
+    <Content Include="images\SchoolImages\150_2IMG-20150330-WA0018.jpg" />
+    <Content Include="images\SchoolImages\150_3IMG-20150330-WA0005.jpg" />
+    <Content Include="images\SchoolImages\150_4IMG-20150330-WA0019.jpg" />
+    <Content Include="images\SchoolImages\151_1IMG-20150330-WA0013.jpg" />
+    <Content Include="images\SchoolImages\151_2IMG_0878.JPG" />
+    <Content Include="images\SchoolImages\151_3IMG_0897.JPG" />
+    <Content Include="images\SchoolImages\151_4IMG_0900.JPG" />
+    <Content Include="images\SchoolImages\36_1IMG_0536.JPG" />
+    <Content Include="images\SchoolImages\36_2IMG_0535.JPG" />
+    <Content Include="images\SchoolImages\36_3IMG_0537.JPG" />
+    <Content Include="images\SchoolImages\38_1IMG_0586.JPG" />
+    <Content Include="images\SchoolImages\38_2IMG_0585.JPG" />
+    <Content Include="images\SchoolImages\40_1IMG_0586.JPG" />
+    <Content Include="images\SchoolImages\40_2IMG_0585.JPG" />
+    <Content Include="images\SchoolImages\41_1IMG_0582.JPG" />
+    <Content Include="images\SchoolImages\41_2IMG_0581.JPG" />
+    <Content Include="images\SchoolImages\42_1IMG_0546.JPG" />
+    <Content Include="images\SchoolImages\42_2IMG_0547.JPG" />
+    <Content Include="images\SchoolImages\42_3IMG_0544.JPG" />
+    <Content Include="images\SchoolImages\43_1IMG_0581.JPG" />
+    <Content Include="images\SchoolImages\43_2IMG_0582.JPG" />
+    <Content Include="images\SchoolImages\43_3IMG_0583.JPG" />
+    <Content Include="images\SchoolImages\43_4IMG_0584.JPG" />
+    <Content Include="images\SchoolImages\43_5IMG_0585.JPG" />
+    <Content Include="images\SchoolImages\43_6IMG_0586.JPG" />
+    <Content Include="images\SchoolImages\44_1IMG_0586.JPG" />
+    <Content Include="images\SchoolImages\44_2IMG_0581.JPG" />
+    <Content Include="images\SchoolImages\44_3IMG_0582.JPG" />
+    <Content Include="images\SchoolImages\44_4IMG_0583.JPG" />
+    <Content Include="images\SchoolImages\44_5IMG_0584.JPG" />
+    <Content Include="images\SchoolImages\44_6IMG_0585.JPG" />
+    <Content Include="images\SchoolImages\45_1IMG_0572.JPG" />
+    <Content Include="images\SchoolImages\45_2IMG_0573.JPG" />
+    <Content Include="images\SchoolImages\45_3IMG_0574.JPG" />
+    <Content Include="images\SchoolImages\45_4IMG_0575.JPG" />
+    <Content Include="images\SchoolImages\45_5IMG_0576.JPG" />
+    <Content Include="images\SchoolImages\45_6IMG_0577.JPG" />
+    <Content Include="images\SchoolImages\45_7IMG_0578.JPG" />
+    <Content Include="images\SchoolImages\46_1IMG_0589.JPG" />
+    <Content Include="images\SchoolImages\46_2IMG_0590.JPG" />
+    <Content Include="images\SchoolImages\46_3IMG_0591.JPG" />
+    <Content Include="images\SchoolImages\46_4IMG_0592.JPG" />
+    <Content Include="images\SchoolImages\46_5IMG_0593.JPG" />
+    <Content Include="images\SchoolImages\46_6IMG_0594.JPG" />
+    <Content Include="images\SchoolImages\46_7IMG_0595.JPG" />
+    <Content Include="images\SchoolImages\47_1IMG_0523.JPG" />
+    <Content Include="images\SchoolImages\47_2IMG_0524.JPG" />
+    <Content Include="images\SchoolImages\47_3IMG_0525.JPG" />
+    <Content Include="images\SchoolImages\47_4IMG_0526.JPG" />
+    <Content Include="images\SchoolImages\47_5IMG_0527.JPG" />
+    <Content Include="images\SchoolImages\47_6IMG_0528.JPG" />
+    <Content Include="images\SchoolImages\47_7IMG_0529.JPG" />
+    <Content Include="images\SchoolImages\47_8IMG_0522.JPG" />
+    <Content Include="images\SchoolImages\48_1IMG_0531.JPG" />
+    <Content Include="images\SchoolImages\48_2IMG_0532.JPG" />
+    <Content Include="images\SchoolImages\48_3IMG_0533.JPG" />
+    <Content Include="images\SchoolImages\48_4IMG_0534.JPG" />
+    <Content Include="images\SchoolImages\48_5IMG_0535.JPG" />
+    <Content Include="images\SchoolImages\48_6IMG_0536.JPG" />
+    <Content Include="images\SchoolImages\48_7IMG_0537.JPG" />
+    <Content Include="images\SchoolImages\48_8IMG_0538.JPG" />
+    <Content Include="images\SchoolImages\49_1IMG_0541.JPG" />
+    <Content Include="images\SchoolImages\49_2IMG_0542.JPG" />
+    <Content Include="images\SchoolImages\49_3IMG_0543.JPG" />
+    <Content Include="images\SchoolImages\49_4IMG_0544.JPG" />
+    <Content Include="images\SchoolImages\49_5IMG_0545.JPG" />
+    <Content Include="images\SchoolImages\49_6IMG_0546.JPG" />
+    <Content Include="images\SchoolImages\49_7IMG_0547.JPG" />
+    <Content Include="images\SchoolImages\49_8IMG_0548.JPG" />
+    <Content Include="images\SchoolImages\50_1IMG_0550.JPG" />
+    <Content Include="images\SchoolImages\50_2IMG_0551.JPG" />
+    <Content Include="images\SchoolImages\50_3IMG_0552.JPG" />
+    <Content Include="images\SchoolImages\50_4IMG_0553.JPG" />
+    <Content Include="images\SchoolImages\50_5IMG_0554.JPG" />
+    <Content Include="images\SchoolImages\50_6IMG_0555.JPG" />
+    <Content Include="images\SchoolImages\50_7IMG_0556.JPG" />
+    <Content Include="images\SchoolImages\50_8IMG_0557.JPG" />
+    <Content Include="images\SchoolImages\51_1IMG_0562.JPG" />
+    <Content Include="images\SchoolImages\51_2IMG_0563.JPG" />
+    <Content Include="images\SchoolImages\51_3IMG_0564.JPG" />
+    <Content Include="images\SchoolImages\51_4IMG_0558.JPG" />
+    <Content Include="images\SchoolImages\51_5IMG_0559.JPG" />
+    <Content Include="images\SchoolImages\51_6IMG_0560.JPG" />
+    <Content Include="images\SchoolImages\51_7IMG_0561.JPG" />
+    <Content Include="images\SchoolImages\52_1IMG_20150109_125110.jpg" />
+    <Content Include="images\SchoolImages\52_2IMG_20150109_125124.jpg" />
+    <Content Include="images\SchoolImages\52_3IMG_20150109_125136.jpg" />
+    <Content Include="images\SchoolImages\52_4IMG_20150109_125206.jpg" />
+    <Content Include="images\SchoolImages\52_5IMG_20150109_125244.jpg" />
+    <Content Include="images\SchoolImages\52_6IMG_20150109_131354.jpg" />
+    <Content Include="images\SchoolImages\52_7IMG_20150109_131342.jpg" />
+    <Content Include="images\SchoolImages\52_8IMG_20150109_131115.jpg" />
+    <Content Include="images\SchoolImages\53_1IMG_20150122_115200.jpg" />
+    <Content Include="images\SchoolImages\53_2IMG_20150123_114458.jpg" />
+    <Content Include="images\SchoolImages\53_3IMG_20150123_114656.jpg" />
+    <Content Include="images\SchoolImages\53_4IMG_20150123_114702.jpg" />
+    <Content Include="images\SchoolImages\53_5IMG_20150123_114514.jpg" />
+    <Content Include="images\SchoolImages\53_6IMG_20150123_114541.jpg" />
+    <Content Include="images\SchoolImages\54_1IMG_20150122_115030.jpg" />
+    <Content Include="images\SchoolImages\54_2IMG_20150122_115042.jpg" />
+    <Content Include="images\SchoolImages\54_3IMG_20150122_115044.jpg" />
+    <Content Include="images\SchoolImages\58_1IMG_20150121_120712.jpg" />
+    <Content Include="images\SchoolImages\58_2IMG_20150121_120723.jpg" />
+    <Content Include="images\SchoolImages\58_3IMG_20150121_120802.jpg" />
+    <Content Include="images\SchoolImages\58_4IMG_20150121_120839.jpg" />
+    <Content Include="images\SchoolImages\58_5IMG_20150121_120754.jpg" />
+    <Content Include="images\SchoolImages\58_6IMG_20150121_121014.jpg" />
+    <Content Include="images\SchoolImages\58_7IMG_20150121_121133.jpg" />
+    <Content Include="images\SchoolImages\58_8IMG_20150121_121155.jpg" />
+    <Content Include="images\SchoolImages\58_9IMG_20150121_120933.jpg" />
+    <Content Include="images\SchoolImages\59_1IMG_0792.JPG" />
+    <Content Include="images\SchoolImages\59_2IMG_0793.JPG" />
+    <Content Include="images\SchoolImages\59_3IMG_0794.JPG" />
+    <Content Include="images\SchoolImages\59_4IMG_0795.JPG" />
+    <Content Include="images\SchoolImages\60_1IMG_0804.MOV" />
+    <Content Include="images\SchoolImages\60_2IMG_0807.JPG" />
+    <Content Include="images\SchoolImages\60_3IMG_0810.JPG" />
+    <Content Include="images\SchoolImages\60_4IMG_0808.JPG" />
+    <Content Include="images\SchoolImages\60_5IMG_0811.JPG" />
+    <Content Include="images\SchoolImages\61_1IMG_20150121_130027.jpg" />
+    <Content Include="images\SchoolImages\61_2IMG_20150121_130031.jpg" />
+    <Content Include="images\SchoolImages\61_3IMG_20150121_130048.jpg" />
+    <Content Include="images\SchoolImages\61_4IMG_20150121_124543.jpg" />
+    <Content Include="images\SchoolImages\61_5IMG_20150121_130053.jpg" />
+    <Content Include="images\SchoolImages\61_6IMG_20150121_130117.jpg" />
+    <Content Include="images\SchoolImages\61_7IMG_20150121_130131.jpg" />
+    <Content Include="images\SchoolImages\61_8IMG_20150121_124559.jpg" />
+    <Content Include="images\SchoolImages\63_1IMG_20150119_134257.jpg" />
+    <Content Include="images\SchoolImages\63_2IMG_20150119_134240.jpg" />
+    <Content Include="images\SchoolImages\63_3IMG_20150119_134254.jpg" />
+    <Content Include="images\SchoolImages\63_4IMG_20150119_133952.jpg" />
+    <Content Include="images\SchoolImages\63_5IMG_20150119_134048.jpg" />
+    <Content Include="images\SchoolImages\63_6IMG_20150119_133924.jpg" />
+    <Content Include="images\SchoolImages\63_7IMG_20150119_134031.jpg" />
+    <Content Include="images\SchoolImages\70_1IMG_20150122_112327.jpg" />
+    <Content Include="images\SchoolImages\70_2IMG_20150122_112722.jpg" />
+    <Content Include="images\SchoolImages\70_3IMG_20150122_112341.jpg" />
+    <Content Include="images\SchoolImages\70_4IMG_20150122_112436.jpg" />
+    <Content Include="images\SchoolImages\70_5IMG_20150122_112529.jpg" />
+    <Content Include="images\SchoolImages\71_1IMG_20150121_115845.jpg" />
+    <Content Include="images\SchoolImages\71_2IMG_20150121_115859.jpg" />
+    <Content Include="images\SchoolImages\71_3IMG_20150121_115927.jpg" />
+    <Content Include="images\SchoolImages\71_4IMG_20150122_122833.jpg" />
+    <Content Include="images\SchoolImages\71_5IMG_20150122_122858.jpg" />
+    <Content Include="images\SchoolImages\71_6IMG_20150122_124620.jpg" />
+    <Content Include="images\SchoolImages\71_7IMG_20150122_124604.jpg" />
+    <Content Include="images\SchoolImages\72_1IMG_20150122_123104.jpg" />
+    <Content Include="images\SchoolImages\72_2IMG_20150122_123107.jpg" />
+    <Content Include="images\SchoolImages\72_3IMG_20150122_123141.jpg" />
+    <Content Include="images\SchoolImages\72_4IMG_20150122_123143.jpg" />
+    <Content Include="images\SchoolImages\72_5IMG_20150122_123149.jpg" />
+    <Content Include="images\SchoolImages\73_1IMG_20150121_124124.jpg" />
+    <Content Include="images\SchoolImages\73_2IMG_20150121_124128.jpg" />
+    <Content Include="images\SchoolImages\73_3IMG_20150121_124139.jpg" />
+    <Content Include="images\SchoolImages\73_4IMG_20150121_124151.jpg" />
+    <Content Include="images\SchoolImages\73_5IMG_20150121_124156.jpg" />
+    <Content Include="images\SchoolImages\73_6IMG_20150121_124330.jpg" />
+    <Content Include="images\SchoolImages\73_7IMG_20150121_124153.jpg" />
+    <Content Include="images\SchoolImages\74_1IMG_20150121_124124.jpg" />
+    <Content Include="images\SchoolImages\74_2IMG_20150121_124139.jpg" />
+    <Content Include="images\SchoolImages\74_3IMG_20150121_124151.jpg" />
+    <Content Include="images\SchoolImages\74_4IMG_20150121_124153.jpg" />
+    <Content Include="images\SchoolImages\74_5IMG_20150121_124156.jpg" />
+    <Content Include="images\SchoolImages\75_1IMG_20150122_134830.jpg" />
+    <Content Include="images\SchoolImages\75_2IMG_20150122_134843.jpg" />
+    <Content Include="images\SchoolImages\75_3IMG_20150122_134858.jpg" />
+    <Content Include="images\SchoolImages\75_4IMG_20150122_134949.jpg" />
+    <Content Include="images\SchoolImages\75_5IMG_20150122_134959.jpg" />
+    <Content Include="images\SchoolImages\75_6IMG_20150122_135006.jpg" />
+    <Content Include="images\SchoolImages\76_1IMG_20150122_134624.jpg" />
+    <Content Include="images\SchoolImages\76_2IMG_20150122_134635.jpg" />
+    <Content Include="images\SchoolImages\76_3IMG_20150122_134642.jpg" />
+    <Content Include="images\SchoolImages\76_4IMG_20150122_134651.jpg" />
+    <Content Include="images\SchoolImages\76_5IMG_20150122_134709.jpg" />
+    <Content Include="images\SchoolImages\76_6IMG_20150122_134711.jpg" />
+    <Content Include="images\SchoolImages\77_1IMG_0751.JPG" />
+    <Content Include="images\SchoolImages\77_2IMG_0745.JPG" />
+    <Content Include="images\SchoolImages\77_3IMG_0750.JPG" />
+    <Content Include="images\SchoolImages\77_4IMG_0748.JPG" />
+    <Content Include="images\SchoolImages\78_1IMG_0763.JPG" />
+    <Content Include="images\SchoolImages\78_2IMG_0759.JPG" />
+    <Content Include="images\SchoolImages\78_3IMG_0757.JPG" />
+    <Content Include="images\SchoolImages\78_4IMG_0760.JPG" />
+    <Content Include="images\SchoolImages\79_1IMG_0763.JPG" />
+    <Content Include="images\SchoolImages\79_2IMG_0759.JPG" />
+    <Content Include="images\SchoolImages\79_3IMG_0757.JPG" />
+    <Content Include="images\SchoolImages\79_4IMG_0760.JPG" />
+    <Content Include="images\SchoolImages\92_1IMG_20150109_134150.jpg" />
+    <Content Include="images\SchoolImages\92_2IMG_20150109_134155.jpg" />
+    <Content Include="images\SchoolImages\92_3IMG_20150109_134159.jpg" />
+    <Content Include="images\SchoolImages\93_1Chrysanthemum.jpg" />
+    <Content Include="images\SchoolImages\93_2Jellyfish.jpg" />
+    <Content Include="images\SchoolImages\95_1IMG_20150109_131352.jpg" />
+    <Content Include="images\SchoolImages\95_2IMG_20150109_134150.jpg" />
+    <Content Include="images\SchoolImages\95_3IMG_20150109_134014.jpg" />
+    <Content Include="images\SchoolImages\95_4IMG_20150109_134159.jpg" />
+    <Content Include="images\SchoolImages\96_1IMG_20150128_115801.jpg" />
+    <Content Include="images\SchoolImages\96_2IMG_20150128_115842.jpg" />
+    <Content Include="images\SchoolImages\96_3IMG_20150128_115945.jpg" />
+    <Content Include="images\SchoolImages\96_4IMG_20150128_120007.jpg" />
+    <Content Include="images\SchoolImages\96_5IMG_20150128_120012.jpg" />
+    <Content Include="images\SchoolImages\96_6IMG_20150128_120443.jpg" />
+    <Content Include="images\SchoolImages\97_1IMG_20150127_131344.jpg" />
+    <Content Include="images\SchoolImages\97_2IMG_20150127_131246.jpg" />
+    <Content Include="images\SchoolImages\97_3IMG_20150127_130244.jpg" />
+    <Content Include="images\SchoolImages\97_4IMG_20150127_130227.jpg" />
+    <Content Include="images\SchoolImages\97_5IMG_20150127_130123.jpg" />
+    <Content Include="images\SchoolImages\97_6IMG_20150127_130102.jpg" />
+    <Content Include="images\SchoolImages\97_7IMG_20150127_130037.jpg" />
+    <Content Include="images\SchoolImages\97_8IMG_20150127_131240.jpg" />
+    <Content Include="images\SchoolImages\98_1IMG_20150128_154838.jpg" />
+    <Content Include="images\SchoolImages\98_2IMG_20150128_154638.jpg" />
+    <Content Include="images\SchoolImages\98_3IMG_20150128_154748.jpg" />
+    <Content Include="images\SchoolImages\98_4IMG_20150128_154800.jpg" />
+    <Content Include="images\SchoolImages\98_5IMG_20150128_154822.jpg" />
+    <Content Include="images\SchoolImages\99_1IMG_20150121_113519.jpg" />
+    <Content Include="images\SchoolImages\99_2IMG_20150121_113333.jpg" />
+    <Content Include="images\SchoolImages\99_3IMG_20150121_113345.jpg" />
+    <Content Include="images\SchoolImages\99_4IMG_20150121_113554.jpg" />
+    <Content Include="images\SchoolImages\99_5IMG_20150121_114915.jpg" />
+    <Content Include="images\SchoolImages\99_6IMG_20150121_113348.jpg" />
+    <Content Include="images\SchoolImages\IMG_20150123_144228.jpg" />
+    <Content Include="images\SchoolImages\IMG_20150123_144231.jpg" />
+    <Content Include="images\SchoolImages\IMG_20150123_144234.jpg" />
+    <Content Include="images\SchoolImages\IMG_20150123_144259.jpg" />
+    <Content Include="images\SchoolImages\IMG_20150123_144306.jpg" />
+    <Content Include="images\SchoolImages\IMG_20150123_144315.jpg" />
+    <Content Include="images\schoolpie.jpg" />
+    <Content Include="images\schoolpie1.jpg" />
+    <Content Include="images\schools.png" />
+    <Content Include="images\slide2.png" />
+    <Content Include="images\smart-learning.jpg" />
+    <Content Include="images\smart-learning2.jpg" />
+    <Content Include="images\s_pic-1.jpg" />
+    <Content Include="images\team-1.jpg" />
+    <Content Include="images\Testmonials\prasad-garu.jpg" />
+    <Content Include="images\tooltip.png" />
+    <Content Include="images\uc.png" />
+    <Content Include="images\village.png" />
+    <Content Include="IMG_1474.JPG" />
+    <Content Include="js\ASPSnippets_Pager.min.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\component.js" />
+    <Content Include="js\jquery-1.10.2.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery.mobile-1.4.2.min.js" />
+    <Content Include="js\json.js" />
+    <Content Include="js\modernizr.custom.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\script.js" />
+    <Content Include="Locations\India.aspx" />
+    <Content Include="Locations\Usa.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="outlinks\Forgetpassword.aspx" />
+    <Content Include="outlinks\WebsitePolicy.aspx" />
+    <Content Include="Programs\adopt-a-school.aspx" />
+    <Content Include="Programs\adopt-a-student.aspx" />
+    <Content Include="Programs\adopt-a-village.aspx" />
+    <Content Include="Programs\AdoptedSchools.aspx" />
+    <Content Include="Programs\LaptopDonation.aspx" />
+    <Content Include="Programs\DonatedSchools.aspx" />
+    <Content Include="Programs\donationlist.aspx" />
+    <Content Include="Programs\Gallery.aspx" />
+    <Content Include="Programs\ImageCSharp.aspx" />
+    <Content Include="Programs\media.aspx" />
+    <Content Include="Programs\media1\events\eventMay2016.aspx" />
+    <Content Include="Programs\media1\events\eventMar2016.aspx" />
+    <Content Include="Programs\media1\events\eventFeb2016.aspx" />
+    <Content Include="Programs\media1\events\eventJan2016.aspx" />
+    <Content Include="Programs\media1\events\eventDec2015.aspx" />
+    <Content Include="Programs\media1\events\eventOct2015.aspx" />
+    <Content Include="Programs\media1\events\eventJuly2015.aspx" />
+    <Content Include="Programs\media1\events\eventJun2015.aspx" />
+    <Content Include="Programs\media1\events\eventApr2015.aspx" />
+    <Content Include="Programs\media1\events\eventAug2015.aspx" />
+    <Content Include="Programs\media1\galary\apr2015.aspx" />
+    <Content Include="Programs\media1\galary\aug2015.aspx" />
+    <Content Include="Programs\media1\press clips\pressclipsApr2015.aspx" />
+    <Content Include="Programs\media1\press clips\pressclipsAug2015.aspx" />
+    <Content Include="Programs\NewSchool.aspx" />
+    <Content Include="Programs\NewStudent.aspx" />
+    <Content Include="Programs\photo-gallery.aspx" />
+    <Content Include="Programs\SchoolsDetails.aspx" />
+    <Content Include="Programs\Schoolslist.aspx" />
+    <Content Include="Programs\SmartphoneDonation.aspx" />
+    <Content Include="Programs\StudentList.aspx" />
+    <Content Include="Programs\Testmonials.aspx" />
+    <Content Include="Programs\video-gallery.aspx" />
+    <Content Include="Programs\Videos.aspx" />
+    <Content Include="Programs\DigitalInclusion.aspx" />
+    <Content Include="SchoolData\100.html" />
+    <Content Include="SchoolData\103.html" />
+    <Content Include="SchoolData\121.html" />
+    <Content Include="SchoolData\122.html" />
+    <Content Include="SchoolData\123.html" />
+    <Content Include="SchoolData\123456.html" />
+    <Content Include="SchoolData\152.html" />
+    <Content Include="SchoolData\62.html" />
+    <Content Include="SchoolData\65.html" />
+    <Content Include="SchoolData\66.html" />
+    <Content Include="SchoolData\81.html" />
+    <Content Include="SchoolData\faq.html" />
+    <Content Include="SchoolData\how-it-works.html" />
+    <Content Include="SchoolData\images\AUTMS122G1.jpg" />
+    <Content Include="SchoolData\images\AUTMS122G2.jpg" />
+    <Content Include="SchoolData\images\GVMC62G1.jpg" />
+    <Content Include="SchoolData\images\GVMC62G2.jpg" />
+    <Content Include="SchoolData\images\GVMCA100G1.jpg" />
+    <Content Include="SchoolData\images\GVMCA100G2.jpg" />
+    <Content Include="SchoolData\images\GVMCM103G1.jpg" />
+    <Content Include="SchoolData\images\GVMCM103G2.jpg" />
+    <Content Include="SchoolData\images\GVMCR66G1.jpg" />
+    <Content Include="SchoolData\images\GVMCR66G2.jpg" />
+    <Content Include="SchoolData\images\GVMCSB65G1.jpg" />
+    <Content Include="SchoolData\images\GVMCSB65G2.jpg" />
+    <Content Include="SchoolData\images\SH81G1.jpg" />
+    <Content Include="SchoolData\images\SH81G2.jpg" />
+    <Content Include="SchoolData\images\St123G1.jpg" />
+    <Content Include="SchoolData\images\St123G2.jpg" />
+    <Content Include="SchoolData\images\StAP121G1.jpg" />
+    <Content Include="SchoolData\images\StAP121G2.jpg" />
+    <Content Include="SchoolData\images\ZPG1.jpg" />
+    <Content Include="SchoolData\images\ZPG2.jpg" />
+    <Content Include="SchoolData\sitemap.html" />
+    <Content Include="Sponsers\Corparate.aspx" />
+    <Content Include="Sponsers\Government.aspx" />
+    <Content Include="Sponsers\Individual.aspx" />
+    <Content Include="Sponsers\Test.aspx" />
+    <Content Include="Templates\HTMLPage1.htm" />
+    <Content Include="Templates\PurchaseOrder.html" />
+    <Content Include="UserHome\ChangePassword.aspx" />
+    <Content Include="UserHome\DashBoard.aspx" />
+    <Content Include="UserHome\DonatedSchools.aspx" />
+    <Content Include="UserHome\Donate\Donate.aspx" />
+    <Content Include="UserHome\Donate\DonateNew.aspx" />
+    <Content Include="UserHome\Donate\Donate_New1.aspx" />
+    <Content Include="UserHome\Donate\SchoolList.aspx" />
+    <Content Include="UserHome\MyProfile.aspx" />
+    <Content Include="UserHome\Success.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUS\about-background.aspx.cs">
+      <DependentUpon>about-background.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUS\about-board.aspx.cs">
+      <DependentUpon>about-board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUS\about-ctrd.aspx.cs">
+      <DependentUpon>about-ctrd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUS\about-ctrd.aspx.designer.cs">
+      <DependentUpon>about-ctrd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUS\about-mission.aspx.cs">
+      <DependentUpon>about-mission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUS\about-model.aspx.cs">
+      <DependentUpon>about-model.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUS\about-smart-content.aspx.cs">
+      <DependentUpon>about-smart-content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppCode\DonarDetails.cs" />
+    <Compile Include="AppCode\UserDetails.cs" />
+    <Compile Include="Benfits\Community.aspx.cs">
+      <DependentUpon>Community.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Benfits\Schools.aspx.cs">
+      <DependentUpon>Schools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Benfits\Sponsers.aspx.cs">
+      <DependentUpon>Sponsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Benfits\Students.aspx.cs">
+      <DependentUpon>Students.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BLL\Donate.cs" />
+    <Compile Include="BLL\SchoolDetails.cs" />
+    <Compile Include="BLL\Schools.cs" />
+    <Compile Include="BLL\Student.cs" />
+    <Compile Include="BLL\StudentDetails.cs" />
+    <Compile Include="BLL\Users.cs" />
+    <Compile Include="Campaigns\CampaignDetails.aspx.cs">
+      <DependentUpon>CampaignDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\CampaignDetails.aspx.designer.cs">
+      <DependentUpon>CampaignDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\CampaignDonate.aspx.cs">
+      <DependentUpon>CampaignDonate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\CampaignDonate.aspx.designer.cs">
+      <DependentUpon>CampaignDonate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\CampaignLanding.aspx.cs">
+      <DependentUpon>CampaignLanding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\CampaignLanding.aspx.designer.cs">
+      <DependentUpon>CampaignLanding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\CreateCampaigns.aspx.cs">
+      <DependentUpon>CreateCampaigns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\CreateCampaigns.aspx.designer.cs">
+      <DependentUpon>CreateCampaigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\Donate.aspx.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\Donate.aspx.designer.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\FundraisingCampaigns.aspx.cs">
+      <DependentUpon>FundraisingCampaigns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\FundraisingCampaigns.aspx.designer.cs">
+      <DependentUpon>FundraisingCampaigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\OngoingCampaigns.aspx.cs">
+      <DependentUpon>OngoingCampaigns.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\OngoingCampaigns.aspx.designer.cs">
+      <DependentUpon>OngoingCampaigns.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Cryptography.cs" />
+    <Compile Include="Common\Mailing.cs" />
+    <Compile Include="Controls\AsideControl.ascx.cs">
+      <DependentUpon>AsideControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AsideControl.ascx.designer.cs">
+      <DependentUpon>AsideControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AsideRight.ascx.cs">
+      <DependentUpon>AsideRight.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AsideRight.ascx.designer.cs">
+      <DependentUpon>AsideRight.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AsideRight33.ascx.cs">
+      <DependentUpon>AsideRight33.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AsideStu_right.ascx.cs">
+      <DependentUpon>AsideStu_right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AsideStu_right.ascx.designer.cs">
+      <DependentUpon>AsideStu_right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Aside_right.ascx.cs">
+      <DependentUpon>Aside_right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Aside_right.ascx.designer.cs">
+      <DependentUpon>Aside_right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Banner.ascx.cs">
+      <DependentUpon>Banner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BreadCrumbs.ascx.cs">
+      <DependentUpon>BreadCrumbs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Campaign.ascx.cs">
+      <DependentUpon>Campaign.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Campaign.ascx.designer.cs">
+      <DependentUpon>Campaign.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ChangePassword.ascx.cs">
+      <DependentUpon>ChangePassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ChangePassword.ascx.designer.cs">
+      <DependentUpon>ChangePassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DigitalInclusion_right.ascx.cs">
+      <DependentUpon>DigitalInclusion_right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DigitalInclusion_right.ascx.designer.cs">
+      <DependentUpon>DigitalInclusion_right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DonateControl.ascx.cs">
+      <DependentUpon>DonateControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DonateControl.ascx.designer.cs">
+      <DependentUpon>DonateControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EnqueryForm.ascx.cs">
+      <DependentUpon>EnqueryForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\EnqueryForm.ascx.designer.cs">
+      <DependentUpon>EnqueryForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FooterScriptsControl.ascx.cs">
+      <DependentUpon>FooterScriptsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Getinvolved.ascx.cs">
+      <DependentUpon>Getinvolved.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Getinvolved.ascx.designer.cs">
+      <DependentUpon>Getinvolved.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LatestAdoptedSchools.ascx.cs">
+      <DependentUpon>LatestAdoptedSchools.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MediaControl.ascx.cs">
+      <DependentUpon>MediaControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MediaControl.ascx.designer.cs">
+      <DependentUpon>MediaControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuInside.ascx.cs">
+      <DependentUpon>MenuInside.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuInside.ascx.designer.cs">
+      <DependentUpon>MenuInside.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuInsideNew.ascx.cs">
+      <DependentUpon>MenuInsideNew.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuInsideNew.ascx.designer.cs">
+      <DependentUpon>MenuInsideNew.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MenuOutsideNew.ascx.cs">
+      <DependentUpon>MenuOutsideNew.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MenuOutsideNew.ascx.designer.cs">
+      <DependentUpon>MenuOutsideNew.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MultiCheckCombo.ascx.cs">
+      <DependentUpon>MultiCheckCombo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MultiCheckCombo.ascx.designer.cs">
+      <DependentUpon>MultiCheckCombo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MyProfile.ascx.cs">
+      <DependentUpon>MyProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MyProfile.ascx.designer.cs">
+      <DependentUpon>MyProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewSchoolForm.ascx.cs">
+      <DependentUpon>NewSchoolForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\NewSchoolForm.ascx.designer.cs">
+      <DependentUpon>NewSchoolForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewStudentForm.ascx.cs">
+      <DependentUpon>NewStudentForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\NewStudentForm.ascx.designer.cs">
+      <DependentUpon>NewStudentForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OutSideMenu.ascx.cs">
+      <DependentUpon>OutSideMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\OutSideMenu.ascx.designer.cs">
+      <DependentUpon>OutSideMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SocialMedia.ascx.cs">
+      <DependentUpon>SocialMedia.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SocialMedia.ascx.designer.cs">
+      <DependentUpon>SocialMedia.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StudentsList.ascx.cs">
+      <DependentUpon>StudentsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\StudentsList.ascx.designer.cs">
+      <DependentUpon>StudentsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Testing.ascx.cs">
+      <DependentUpon>Testing.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Testing.ascx.designer.cs">
+      <DependentUpon>Testing.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\testmonials.ascx.cs">
+      <DependentUpon>testmonials.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ViewSchools.ascx.cs">
+      <DependentUpon>ViewSchools.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DAL\Common.cs" />
+    <Compile Include="DAL\Cryptography.cs" />
+    <Compile Include="DAL\Donate.cs" />
+    <Compile Include="DAL\Packages.cs" />
+    <Compile Include="DAL\Schools.cs" />
+    <Compile Include="DAL\Users.cs" />
+    <Compile Include="Donate\ccavRequestHandler.aspx.cs">
+      <DependentUpon>ccavRequestHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\ccavRequestHandler.aspx.designer.cs">
+      <DependentUpon>ccavRequestHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\ccavResponseHandler.aspx.cs">
+      <DependentUpon>ccavResponseHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\ccavResponseHandler.aspx.designer.cs">
+      <DependentUpon>ccavResponseHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\Default1.aspx.cs">
+      <DependentUpon>Default1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\Default1.aspx.designer.cs">
+      <DependentUpon>Default1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\Donate.aspx.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\Donate.aspx.designer.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\DonateDetails.aspx.cs">
+      <DependentUpon>DonateDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\DonateDetails.aspx.designer.cs">
+      <DependentUpon>DonateDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\Donate_.aspx.cs">
+      <DependentUpon>Donate_.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\Donate_.aspx.designer.cs">
+      <DependentUpon>Donate_.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\Donate_New.aspx.cs">
+      <DependentUpon>Donate_New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\Donate_New.aspx.designer.cs">
+      <DependentUpon>Donate_New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\PaymentStatus.aspx.cs">
+      <DependentUpon>PaymentStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\PaymentStatus.aspx.designer.cs">
+      <DependentUpon>PaymentStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\PurchaseOrder.aspx.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\PurchaseOrder.aspx.designer.cs">
+      <DependentUpon>PurchaseOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\StudentForm.aspx.cs">
+      <DependentUpon>StudentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\StudentForm.aspx.designer.cs">
+      <DependentUpon>StudentForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Donate\Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Donate\Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetInvolved\FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetInvolved\FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetInvolved\HowToDonate.aspx.cs">
+      <DependentUpon>HowToDonate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetInvolved\HowToDonate.aspx.designer.cs">
+      <DependentUpon>HowToDonate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetInvolved\SiteMap.aspx.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetInvolved\SiteMap.aspx.designer.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\GVFileHandler.ashx.cs" />
+    <Compile Include="Handlers\GVHandler.ashx.cs">
+      <DependentUpon>GVHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\GVSchoolHandler.ashx.cs">
+      <DependentUpon>GVSchoolHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Locations\India.aspx.cs">
+      <DependentUpon>India.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Locations\Usa.aspx.cs">
+      <DependentUpon>Usa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\InsideMaster.master.cs">
+      <DependentUpon>InsideMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\OutSideMaster.master.cs">
+      <DependentUpon>OutSideMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="outlinks\Forgetpassword.aspx.cs">
+      <DependentUpon>Forgetpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="outlinks\Forgetpassword.aspx.designer.cs">
+      <DependentUpon>Forgetpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="outlinks\WebsitePolicy.aspx.cs">
+      <DependentUpon>WebsitePolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="outlinks\WebsitePolicy.aspx.designer.cs">
+      <DependentUpon>WebsitePolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\adopt-a-school.aspx.cs">
+      <DependentUpon>adopt-a-school.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\adopt-a-school.aspx.designer.cs">
+      <DependentUpon>adopt-a-school.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\adopt-a-student.aspx.cs">
+      <DependentUpon>adopt-a-student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\adopt-a-student.aspx.designer.cs">
+      <DependentUpon>adopt-a-student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\adopt-a-village.aspx.cs">
+      <DependentUpon>adopt-a-village.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\adopt-a-village.aspx.designer.cs">
+      <DependentUpon>adopt-a-village.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\AdoptedSchools.aspx.cs">
+      <DependentUpon>AdoptedSchools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\AdoptedSchools.aspx.designer.cs">
+      <DependentUpon>AdoptedSchools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\LaptopDonation.aspx.cs">
+      <DependentUpon>LaptopDonation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\LaptopDonation.aspx.designer.cs">
+      <DependentUpon>LaptopDonation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\DonatedSchools.aspx.cs">
+      <DependentUpon>DonatedSchools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\DonatedSchools.aspx.designer.cs">
+      <DependentUpon>DonatedSchools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\donationlist.aspx.cs">
+      <DependentUpon>donationlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\donationlist.aspx.designer.cs">
+      <DependentUpon>donationlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\ImageCSharp.aspx.cs">
+      <DependentUpon>ImageCSharp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media.aspx.cs">
+      <DependentUpon>media.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media.aspx.designer.cs">
+      <DependentUpon>media.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventMay2016.aspx.cs">
+      <DependentUpon>eventMay2016.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventMay2016.aspx.designer.cs">
+      <DependentUpon>eventMay2016.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventMar2016.aspx.cs">
+      <DependentUpon>eventMar2016.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventMar2016.aspx.designer.cs">
+      <DependentUpon>eventMar2016.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventFeb2016.aspx.cs">
+      <DependentUpon>eventFeb2016.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventFeb2016.aspx.designer.cs">
+      <DependentUpon>eventFeb2016.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventJan2016.aspx.cs">
+      <DependentUpon>eventJan2016.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventJan2016.aspx.designer.cs">
+      <DependentUpon>eventJan2016.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventDec2015.aspx.cs">
+      <DependentUpon>eventDec2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventDec2015.aspx.designer.cs">
+      <DependentUpon>eventDec2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventOct2015.aspx.cs">
+      <DependentUpon>eventOct2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventOct2015.aspx.designer.cs">
+      <DependentUpon>eventOct2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventJuly2015.aspx.cs">
+      <DependentUpon>eventJuly2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventJuly2015.aspx.designer.cs">
+      <DependentUpon>eventJuly2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventJun2015.aspx.cs">
+      <DependentUpon>eventJun2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventJun2015.aspx.designer.cs">
+      <DependentUpon>eventJun2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventApr2015.aspx.cs">
+      <DependentUpon>eventApr2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventApr2015.aspx.designer.cs">
+      <DependentUpon>eventApr2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventAug2015.aspx.cs">
+      <DependentUpon>eventAug2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\events\eventAug2015.aspx.designer.cs">
+      <DependentUpon>eventAug2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\galary\apr2015.aspx.cs">
+      <DependentUpon>apr2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\galary\apr2015.aspx.designer.cs">
+      <DependentUpon>apr2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\galary\aug2015.aspx.cs">
+      <DependentUpon>aug2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\galary\aug2015.aspx.designer.cs">
+      <DependentUpon>aug2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\press clips\pressclipsApr2015.aspx.cs">
+      <DependentUpon>pressclipsApr2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\press clips\pressclipsApr2015.aspx.designer.cs">
+      <DependentUpon>pressclipsApr2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\media1\press clips\pressclipsAug2015.aspx.cs">
+      <DependentUpon>pressclipsAug2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\media1\press clips\pressclipsAug2015.aspx.designer.cs">
+      <DependentUpon>pressclipsAug2015.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\NewSchool.aspx.cs">
+      <DependentUpon>NewSchool.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\NewSchool.aspx.designer.cs">
+      <DependentUpon>NewSchool.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\NewStudent.aspx.cs">
+      <DependentUpon>NewStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\NewStudent.aspx.designer.cs">
+      <DependentUpon>NewStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\photo-gallery.aspx.cs">
+      <DependentUpon>photo-gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\photo-gallery.aspx.designer.cs">
+      <DependentUpon>photo-gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\SchoolsDetails.aspx.cs">
+      <DependentUpon>SchoolsDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\SchoolsDetails.aspx.designer.cs">
+      <DependentUpon>SchoolsDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\Schoolslist.aspx.cs">
+      <DependentUpon>Schoolslist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\Schoolslist.aspx.designer.cs">
+      <DependentUpon>Schoolslist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\SmartphoneDonation.aspx.cs">
+      <DependentUpon>SmartphoneDonation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\SmartphoneDonation.aspx.designer.cs">
+      <DependentUpon>SmartphoneDonation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\StudentList.aspx.cs">
+      <DependentUpon>StudentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\StudentList.aspx.designer.cs">
+      <DependentUpon>StudentList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\Testmonials.aspx.cs">
+      <DependentUpon>Testmonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\Testmonials.aspx.designer.cs">
+      <DependentUpon>Testmonials.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\video-gallery.aspx.cs">
+      <DependentUpon>video-gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\video-gallery.aspx.designer.cs">
+      <DependentUpon>video-gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\Videos.aspx.cs">
+      <DependentUpon>Videos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\Videos.aspx.designer.cs">
+      <DependentUpon>Videos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Programs\DigitalInclusion.aspx.cs">
+      <DependentUpon>DigitalInclusion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Programs\DigitalInclusion.aspx.designer.cs">
+      <DependentUpon>DigitalInclusion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sponsers\Corparate.aspx.cs">
+      <DependentUpon>Corparate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sponsers\Corparate.aspx.designer.cs">
+      <DependentUpon>Corparate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sponsers\Government.aspx.cs">
+      <DependentUpon>Government.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sponsers\Government.aspx.designer.cs">
+      <DependentUpon>Government.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sponsers\Individual.aspx.cs">
+      <DependentUpon>Individual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sponsers\Individual.aspx.designer.cs">
+      <DependentUpon>Individual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sponsers\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sponsers\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\DashBoard.aspx.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\DashBoard.aspx.designer.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\DonatedSchools.aspx.cs">
+      <DependentUpon>DonatedSchools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\DonatedSchools.aspx.designer.cs">
+      <DependentUpon>DonatedSchools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\Donate\Donate.aspx.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\Donate\Donate.aspx.designer.cs">
+      <DependentUpon>Donate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\Donate\DonateNew.aspx.cs">
+      <DependentUpon>DonateNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\Donate\DonateNew.aspx.designer.cs">
+      <DependentUpon>DonateNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\Donate\Donate_New1.aspx.cs">
+      <DependentUpon>Donate_New1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\Donate\Donate_New1.aspx.designer.cs">
+      <DependentUpon>Donate_New1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\Donate\SchoolList.aspx.cs">
+      <DependentUpon>SchoolList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\Donate\SchoolList.aspx.designer.cs">
+      <DependentUpon>SchoolList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\MyProfile.aspx.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\MyProfile.aspx.designer.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserHome\Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserHome\Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\GrameenaVidya.dll.config" />
+    <None Include="CSS\custom.css.map" />
+    <Content Include="CSS\donate.css.map" />
+    <Content Include="scss\donate.scss" />
+    <None Include="fonts\.DS_Store" />
+    <None Include="fonts\codropsicons\.DS_Store" />
+    <None Include="fonts\codropsicons\codropsicons.eot" />
+    <None Include="fonts\codropsicons\codropsicons.ttf" />
+    <None Include="fonts\codropsicons\codropsicons.woff" />
+    <None Include="fonts\ecoicons\ecoicon.eot" />
+    <None Include="fonts\ecoicons\ecoicon.ttf" />
+    <None Include="fonts\ecoicons\ecoicon.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="font\fontawesome-webfont862f.eot" />
+    <None Include="font\fontawesome-webfont862f.ttf" />
+    <None Include="font\fontawesome-webfont862f.woff" />
+    <None Include="font\fontawesome-webfontd41d.eot" />
+    <None Include="font\Pe-icon-lined41d.eot" />
+    <None Include="font\Pe-icon-linef48e.eot" />
+    <None Include="font\Pe-icon-linef48e.ttf" />
+    <None Include="font\Pe-icon-linef48e.woff" />
+    <Content Include="Handlers\GVHandler.ashx" />
+    <Content Include="Handlers\GVSchoolHandler.ashx" />
+    <None Include="images\artifacts.psd" />
+    <Content Include="images\SchoolImages\55_1GVMC ps Kancherpalem.zip" />
+    <Content Include="images\SchoolImages\56_1GVMC ps Akkayapalem NGO%27s Colony.zip" />
+    <Content Include="images\SchoolImages\57_1GVMC ps Maddilapalem.zip" />
+    <Content Include="images\SchoolImages\62_1GVMC MGM ALLIPURAM.zip" />
+    <Content Include="images\SchoolImages\64_1gvmc hs k colony.zip" />
+    <Content Include="images\SchoolImages\65_1gvmc PS burma camp.zip" />
+    <Content Include="images\SchoolImages\66_1gvmc ps Ramaji estate.zip" />
+    <Content Include="images\SchoolImages\67_1GVMC-Rly New Colony.zip" />
+    <Content Include="images\SchoolImages\68_1gvmc hs rp peta.zip" />
+    <Content Include="images\SchoolImages\69_1St Peters high school Gnanapuram.zip" />
+    <Content Include="images\SchoolImages\81_1Gyanapuram Girls SHHS.zip" />
+    <None Include="images\bck2.webp" />
+    <None Include="images\smart-learning2.psd" />
+    <Content Include="Master\InsideMaster.master" />
+    <Content Include="Master\OutSideMaster.master" />
+    <None Include="sass\custom.scss" />
+    <None Include="sass\_dashboard.scss" />
+    <None Include="sass\_front-page.scss" />
+    <Content Include="Web.sitemap" />
+    <None Include="sass\_photo-gallery.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\gallery-slider\" />
+    <Folder Include="images\graph\" />
+    <Folder Include="images\media\events\2015\July\" />
+    <Folder Include="images\media\events\2015\May\" />
+    <Folder Include="images\media\events\2015\September\" />
+    <Folder Include="images\old\" />
+    <Folder Include="Scripts\" />
+    <Folder Include="Styles\" />
+    <Folder Include="Videos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49931</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
